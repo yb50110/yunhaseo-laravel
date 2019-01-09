@@ -6,6 +6,8 @@
 /public/svg/*
 /public/uploads/*
 /public/vendor/*
+/public/storage/*
+/public/images/*
 /storage/*.key
 /vendor
 .env

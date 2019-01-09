@@ -1,0 +1,30 @@
+@mixin translate() {
+  font-family: $font-family-korean;
+  position: relative;
+  font-size: 4.5em;
+
+  &:before {
+    content: 'override this value with @content';
+    font-family: $font-family-sans-serif;
+    position: absolute;
+    font-size: 0.4em;
+    font-weight: 700;
+    top: -25px;
+    left: 5px;
+    @content;
+  }
+}
+
+@mixin transition($what, $length, $style) {
+  transition: $what $length $style;
+  -o-transition: $what $length $style;
+  -ms-transition: $what $length $style;
+  -moz-transition: $what $length $style;
+  -webkit-transition: $what $length $style;
+}
+
+@mixin background-image-style() {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

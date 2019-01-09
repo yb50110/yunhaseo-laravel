@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateSkillsTable extends Migration
+class CreateProjectSkillTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,10 +13,15 @@ class CreateSkillsTable extends Migration
      */
     public function up()
     {
-        Schema::create('skills', function (Blueprint $table) {
+        Schema::create('project_skill', function (Blueprint $table) {
             $table->increments('id');
             $table->timestamps();
-            $table->string('name');
+
+            $table->unsignedInteger('project_id');
+            $table->unsignedInteger('skill_id');
+
+            $table->foreign('project_id')->references('id')->on('projects');
+            $table->foreign('skill_id')->references('id')->on('skills');
         });
     }
 
@@ -27,6 +32,6 @@ class CreateSkillsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('skills');
+        Schema::dropIfExists('project_skill');
     }
 }

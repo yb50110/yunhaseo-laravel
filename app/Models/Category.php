@@ -36,7 +36,7 @@ class Category extends Model
     */
     public function project()
     {
-        return $this->hasMany('App\Models\Project');
+        return $this->belongsToMany('App\Models\Project', 'project_category', 'category_id', 'project_id');
     }
 
     /*

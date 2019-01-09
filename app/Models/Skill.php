@@ -36,7 +36,7 @@ class Skill extends Model
     */
     public function projects()
     {
-        return $this->belongsTo('App\Models\Project');
+        return $this->belongsToMany('App\Models\Project', 'Project_Skill');
     }
 
     /*

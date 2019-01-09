@@ -5,7 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Model;
 use Backpack\CRUD\CrudTrait;
 
-class Role extends Model
+class ProjectCategory extends Model
 {
     use CrudTrait;
 
@@ -15,11 +15,11 @@ class Role extends Model
     |--------------------------------------------------------------------------
     */
 
-    protected $table = 'roles';
+    protected $table = 'project_category';
     // protected $primaryKey = 'id';
     // public $timestamps = false;
     // protected $guarded = ['id'];
-    protected $fillable = ['name'];
+    protected $fillable = ['project_id', 'category_id'];
     // protected $hidden = [];
     // protected $dates = [];
 
@@ -34,10 +34,6 @@ class Role extends Model
     | RELATIONS
     |--------------------------------------------------------------------------
     */
-    public function project()
-    {
-        return $this->belongsToMany('App\Models\Project');
-    }
 
     /*
     |--------------------------------------------------------------------------

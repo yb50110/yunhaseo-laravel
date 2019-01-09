@@ -3,6 +3,8 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Models\Project;
+use App\Models\ProjectCategory;
+use App\Models\ProjectRole;
 use App\Models\ProjectTool;
 use App\Models\Skill;
 use Backpack\CRUD\app\Http\Controllers\CrudController;
@@ -36,6 +38,10 @@ class ProjectCrudController extends CrudController
         */
 
         // Setting up table
+        $this->crud->addColumn([
+            'name' => 'id',
+            'type' => 'text',
+        ]);
         $this->crud->addColumn([
             'name' => 'name',
             'type' => 'text',
@@ -74,21 +80,11 @@ class ProjectCrudController extends CrudController
         ]);
         $this->crud->addField([
             'label' => 'Thumbnail image',
-            'name' => 'image_url',
+            'name' => 'image',
             'type' => 'image',
             'upload' => true,
-//            'crop' => true, // set to true to allow cropping, false to disable
-//            'aspect_ratio' => 1, // omit or set to 0 to allow any aspect ratio
-        ]);
-        $this->crud->addField([
-            'name' => 'description',
-            'type' => 'ckeditor',
-            // optional:
-//            'extra_plugins' => ['oembed', 'widget']
-//            'options' => [
-//            'autoGrow_minHeight' => 200,
-//            'autoGrow_bottomSpace' => 50,
-//            'removePlugins' => 'resize,maximize',
+            'crop' => true, // set to true to allow cropping, false to disable
+            'aspect_ratio' => 1, // omit or set to 0 to allow any aspect ratio
         ]);
         $this->crud->addField([
             'name' => 'year',
@@ -99,14 +95,6 @@ class ProjectCrudController extends CrudController
             'type' => 'url',
         ]);
         $this->crud->addField([
-            'label' => 'Category',
-            'name' => 'category_id',
-            'type' => 'select2',
-            'entity' => 'categories', // the method that defines the relationship in your Model
-            'attribute' => 'name', // foreign key attribute that is shown to user
-            'pivot' => false,
-        ]);
-        $this->crud->addField([
             'label' => 'Company',
             'name' => 'company_id',
             'type' => 'select2',
@@ -115,25 +103,41 @@ class ProjectCrudController extends CrudController
             'pivot' => false,
         ]);
         $this->crud->addField([
+            'label' => 'Category',
+            'name' => 'categories',
+            'type' => 'checklist',
+            'entity' => 'categories', // the method that defines the relationship in your Model
+            'attribute' => 'name', // foreign key attribute that is shown to user
+            'model' => "App\Models\Category",
+            'pivot' => true,
+        ]);
+        $this->crud->addField([
             'label' => 'Role',
-            'name' => 'role_id',
-            'type' => 'select2',
+            'name' => 'roles',
+            'type' => 'checklist',
             'entity' => 'roles', // the method that defines the relationship in your Model
             'attribute' => 'name', // foreign key attribute that is shown to user
-            'pivot' => false,
+            'pivot' => true,
         ]);
         $this->crud->addField([
             'label' => 'Tools',
-            'name' => 'tool_id',
+            'name' => 'tools',
             'type' => 'select2_multiple',
             'entity' => 'tools', // the method that defines the relationship in your Model
             'attribute' => 'name', // foreign key attribute that is shown to user
-            'pivot' => false,
+            'pivot' => true,
         ]);
         $this->crud->addField([
             'label' => 'Skills (separate each with new line or comma)',
             'name' => 'skills',
-            'type' => 'textarea',
+            'type' => 'select2_multiple',
+            'entity' => 'skills',
+            'attribute' => 'name',
+            'pivot' => true,
+        ]);
+        $this->crud->addField([
+            'name' => 'description',
+            'type' => 'tinymce'
         ]);
 
         // add asterisk for fields that are required in ProjectRequest
@@ -143,74 +147,13 @@ class ProjectCrudController extends CrudController
 
     public function store(StoreRequest $request)
     {
-        $project = new Project();
-        $project->name = $request->name;
-        $project->featured = $request->featured;
-        $project->description = $request->description;
-        $project->year = $request->year;
-        $project->url = $request->url;
-        $project->category_id = $request->category_id;
-        $project->company_id = $request->company_id;
-        $project->role_id = $request->role_id;
-
-        // storing image_url
-        $disk = "public";
-        $destination_path = "uploads/projects";
-        // if the image was erased
-        if ($request->image_url==null)
-        {
-            \Storage::disk($disk)->delete($project->image_url);
-            $project->image_url = null;
-        }
-        // if a base64 was sent, store it in the db
-        if (starts_with($request->image_url, 'data:image'))
-        {
-            $image = \Image::make($request->image_url)->encode('jpg', 90);
-            $filename = md5($request->image_url.time()).'.jpg';
-            \Storage::disk($disk)->put($destination_path.'/'.$filename, $image->stream());
-            $project->image_url = $destination_path.'/'.$filename;
-        }
-
-        $project->save();
-
-        // create project_tool record after project is created
-        if(count($request->tool_id)) {
-            foreach ($request->tool_id as $index => $tool_id) {
-                $item = new ProjectTool();
-                $item->project_id = $project->id;
-                $item->tool_id = $tool_id;
-                $item->save();
-            }
-        }
-
-        // create records in skills
-        $skills = str_replace(array("\r", "\n"), ',', $request->skills);
-        $skills = array_filter(explode(', ', $skills));
-        if(count($skills)) {
-            foreach ($skills as $index => $skill) {
-                $item = new Skill;
-                $item->name = $skill;
-                $item->project_id = $project->id;
-                $item->save();
-            }
-        }
-
-        // show a success message
-        \Alert::success(trans('backpack::crud.insert_success'))->flash();
-
-        // save the redirect choice for next time
-        $this->setSaveAction();
-
-        $redirect_location = $this->performSaveAction($project->getKey());
+        $redirect_location = parent::storeCrud($request);
         return $redirect_location;
     }
 
     public function update(UpdateRequest $request)
     {
-        // your additional operations before save here
         $redirect_location = parent::updateCrud($request);
-        // your additional operations after save here
-        // use $this->data['entry'] or $this->crud->entry
         return $redirect_location;
     }
 }

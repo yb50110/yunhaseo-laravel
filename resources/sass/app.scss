@@ -2,7 +2,9 @@
 @import 'reset';
 
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Lora:400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:800');
 
 // Variables
 @import 'variables';
@@ -10,7 +12,20 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
+// Base
+@import 'base';
+
+// Mixins
+@import 'mixins';
+
+// Pages
+@import
+  'page/home',
+  'page/projects'
+;
+
 // Components
 @import
-  'nav'
-  ;
+  'component/nav',
+  'component/footer'
+;

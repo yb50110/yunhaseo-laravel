@@ -14,6 +14,7 @@ class InsertRolesTable extends Migration
     public function up()
     {
         DB::table('roles')->insert(['name' => 'Front-End Developer']);
+        DB::table('roles')->insert(['name' => 'Back-End Developer']);
         DB::table('roles')->insert(['name' => 'Graphic Designer']);
     }
 

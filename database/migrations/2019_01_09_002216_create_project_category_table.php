@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateSkillsTable extends Migration
+class CreateProjectCategoryTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,10 +13,15 @@ class CreateSkillsTable extends Migration
      */
     public function up()
     {
-        Schema::create('skills', function (Blueprint $table) {
+        Schema::create('project_category', function (Blueprint $table) {
             $table->increments('id');
             $table->timestamps();
-            $table->string('name');
+
+            $table->unsignedInteger('project_id');
+            $table->unsignedInteger('category_id');
+
+            $table->foreign('project_id')->references('id')->on('projects');
+            $table->foreign('category_id')->references('id')->on('categories');
         });
     }
 
@@ -27,6 +32,6 @@ class CreateSkillsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('skills');
+        Schema::dropIfExists('project_category');
     }
 }

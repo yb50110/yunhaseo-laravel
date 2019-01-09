@@ -15,8 +15,6 @@ class CreateProjectsTable extends Migration
     {
         Schema::create('projects', function (Blueprint $table) {
             $table->increments('id');
-            $table->unsignedInteger('category_id')->nullable();
-            $table->unsignedInteger('role_id')->nullable();
             $table->unsignedInteger('company_id')->nullable();
 
             $table->timestamps();
@@ -25,10 +23,8 @@ class CreateProjectsTable extends Migration
             $table->longText('description');
             $table->string('year');
             $table->string('url')->nullable();
-            $table->string('image_url')->nullable();
+            $table->string('image')->nullable();
 
-            $table->foreign('category_id')->references('id')->on('categories');
-            $table->foreign('role_id')->references('id')->on('roles');
             $table->foreign('company_id')->references('id')->on('companies');
         });
     }

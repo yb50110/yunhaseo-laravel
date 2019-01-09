@@ -1,0 +1,23 @@
+nav {
+  position: relative;
+  float: right;
+  z-index: 1;
+
+  a {
+    display: inline-block;
+    border-bottom: none;
+    margin: 0 0 0 60px;
+    padding: 10px 0;
+    opacity: 0.3;
+    @include transition(all, .3s, ease);
+
+    &:hover {
+      border-bottom: none;
+      opacity: 1;
+    }
+
+    &.active {
+      opacity: 1;
+    }
+  }
+}

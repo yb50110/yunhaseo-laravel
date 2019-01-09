@@ -17,6 +17,7 @@ class InsertCompaniesTable extends Migration
         DB::table('companies')->insert(['name' => 'B302: A Creative Media Mob', 'location' => 'Arnhem, Netherlands']);
         DB::table('companies')->insert(['name' => 'Freelance project', 'location' => '']);
         DB::table('companies')->insert(['name' => 'Passion project', 'location' => '']);
+        DB::table('companies')->insert(['name' => 'Academic project', 'location' => '']);
     }
 
     /**
