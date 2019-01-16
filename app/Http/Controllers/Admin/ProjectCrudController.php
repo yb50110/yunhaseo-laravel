@@ -136,8 +136,20 @@ class ProjectCrudController extends CrudController
             'pivot' => true,
         ]);
         $this->crud->addField([
+            'name' => 'short_description',
+            'type' => 'ckeditor',
+            'options' => [
+                'autoGrow_minHeight' => 500,
+                'autoGrow_bottomSpace' => 50,
+            ]
+        ]);
+        $this->crud->addField([
             'name' => 'description',
-            'type' => 'tinymce'
+            'type' => 'ckeditor',
+            'options' => [
+                'autoGrow_minHeight' => 500,
+                'autoGrow_bottomSpace' => 50,
+            ]
         ]);
 
         // add asterisk for fields that are required in ProjectRequest

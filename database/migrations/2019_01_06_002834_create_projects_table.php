@@ -20,6 +20,7 @@ class CreateProjectsTable extends Migration
             $table->timestamps();
             $table->string('name');
             $table->boolean('featured');
+            $table->longText('short_description');
             $table->longText('description');
             $table->string('year');
             $table->string('url')->nullable();

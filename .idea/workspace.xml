@@ -2,44 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1771dbb-e9f7-4df0-92b3-f055fb632b14" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Models/ProjectCategory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/ProjectRole.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_01_09_002204_create_project_role_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_01_09_002216_create_project_category_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_01_09_020659_create_project_skill_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_01_09_020713_insert_skills_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/yunha-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/_base.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/component/_footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/component/_nav.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/page/_home.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/page/_projects.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/projects-show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/ProjectCrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/ProjectCrudController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProjectController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProjectController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Requests/ProjectRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/ProjectRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Category.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Project.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Project.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Role.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Role.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Skill.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Skill.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/backpack/base.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/backpack/base.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/migrations/2019_01_06_002834_create_projects_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_01_06_002834_create_projects_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_01_06_002853_create_skills_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_01_06_002853_create_skills_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_01_06_020101_insert_roles_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_01_06_020101_insert_roles_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_01_06_020727_insert_companies_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_01_06_020727_insert_companies_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/_nav.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/projects.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/projects.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/_base.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/page/_projects.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/page/_projects.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/projects-show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/projects-show.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,12 +22,14 @@
     <session id="-1593600923">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.13" value="2" />
           <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.18" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -73,22 +43,22 @@
           <entry key="json" value="2" />
           <entry key="lock" value="1" />
           <entry key="log" value="2" />
-          <entry key="php" value="166" />
-          <entry key="scss" value="36" />
+          <entry key="php" value="171" />
+          <entry key="scss" value="38" />
           <entry key="svg" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key=".env file" value="2" />
-          <entry key="Blade" value="21" />
+          <entry key="Blade" value="23" />
           <entry key="Image" value="15" />
           <entry key="JSON" value="3" />
           <entry key="JavaScript" value="9" />
           <entry key="Log" value="2" />
-          <entry key="PHP" value="145" />
+          <entry key="PHP" value="148" />
           <entry key="PLAIN_TEXT" value="5" />
-          <entry key="SCSS" value="36" />
+          <entry key="SCSS" value="38" />
           <entry key="SVG" value="1" />
           <entry key="htaccess" value="1" />
         </counts>
@@ -100,19 +70,19 @@
           <entry key="gitignore" value="148" />
           <entry key="htaccess" value="4" />
           <entry key="js" value="72" />
-          <entry key="php" value="8922" />
-          <entry key="scss" value="3379" />
-          <entry key="txt" value="12" />
+          <entry key="php" value="9135" />
+          <entry key="scss" value="3518" />
+          <entry key="txt" value="157" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key=".env file" value="22" />
-          <entry key="Blade" value="2203" />
+          <entry key="Blade" value="2394" />
           <entry key="JavaScript" value="72" />
-          <entry key="PHP" value="6719" />
-          <entry key="PLAIN_TEXT" value="164" />
-          <entry key="SCSS" value="3379" />
+          <entry key="PHP" value="6741" />
+          <entry key="PLAIN_TEXT" value="309" />
+          <entry key="SCSS" value="3518" />
           <entry key="htaccess" value="4" />
         </counts>
       </usages-collector>
@@ -123,8 +93,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/ProjectCrudController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2973">
-              <caret line="154" column="5" selection-start-line="154" selection-start-column="5" selection-end-line="154" selection-end-column="5" />
+            <state relative-caret-position="3082">
+              <caret line="143" column="13" selection-start-line="143" selection-start-column="13" selection-end-line="143" selection-end-column="13" />
               <folding>
                 <element signature="e#46#69#0#PHP" expanded="true" />
               </folding>
@@ -133,31 +103,46 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Models/Project.php">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2019_01_06_002834_create_projects_table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="79" column="36" selection-start-line="79" selection-start-column="36" selection-end-line="79" selection-end-column="36" />
+            <state relative-caret-position="483">
+              <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/projects-show.blade.php">
+        <entry file="file://$PROJECT_DIR$/resources/sass/_base.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-299">
-              <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
-              <folding>
-                <element signature="e#352#418#0#HTML" expanded="true" />
-              </folding>
+            <state relative-caret-position="897">
+              <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Models/Project.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1771">
+              <caret line="79" column="36" selection-start-line="79" selection-start-column="36" selection-end-line="79" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/projects-show.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="603">
+              <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/sass/page/_projects.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="51" selection-start-line="51" selection-end-line="51" />
+            <state relative-caret-position="1357">
+              <caret line="59" column="16" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -165,11 +150,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/projects.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="153" selection-start-line="6" selection-start-column="87" selection-end-line="6" selection-end-column="153" />
-              <folding>
-                <element signature="e#254#324#0#HTML" expanded="true" />
-              </folding>
+            <state relative-caret-position="161">
+              <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -223,7 +205,6 @@
         <option value="$PROJECT_DIR$/resources/sass/component/_footer.scss" />
         <option value="$PROJECT_DIR$/resources/sass/page/_home.scss" />
         <option value="$PROJECT_DIR$/resources/views/home.blade.php" />
-        <option value="$PROJECT_DIR$/resources/sass/_base.scss" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/resources/sass/app.scss" />
         <option value="$PROJECT_DIR$/database/migrations/2019_01_06_020727_insert_companies_table.php" />
@@ -250,13 +231,14 @@
         <option value="$PROJECT_DIR$/database/migrations/2019_01_09_020713_insert_skills_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_01_06_020101_insert_roles_table.php" />
         <option value="$PROJECT_DIR$/config/backpack/base.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_01_06_002834_create_projects_table.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/ProjectCrudController.php" />
         <option value="$PROJECT_DIR$/resources/views/projects.blade.php" />
         <option value="$PROJECT_DIR$/app/Models/Project.php" />
-        <option value="$PROJECT_DIR$/resources/views/projects-show.blade.php" />
         <option value="$PROJECT_DIR$/resources/sass/_mixins.scss" />
         <option value="$PROJECT_DIR$/resources/sass/page/_projects.scss" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_01_06_002834_create_projects_table.php" />
+        <option value="$PROJECT_DIR$/resources/sass/_base.scss" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/ProjectCrudController.php" />
+        <option value="$PROJECT_DIR$/resources/views/projects-show.blade.php" />
       </list>
     </option>
   </component>
@@ -415,6 +397,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -432,15 +415,31 @@
               <item name="yunhaseo-laravel" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="yunhaseo-laravel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yunhaseo-laravel" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="storage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yunhaseo-laravel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yunhaseo-laravel" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yunhaseo-laravel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yunhaseo-laravel" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="_mixin&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/sass/_mixins.scss&#10;project&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/sass/page/_projects.scss&#10;show&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/views/projects-show.blade.php&#10;81d4&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/public/storage/public/uploads/projects/81d341016718400b653bfec455ea857d.jpg&#10;project.&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/views/projects.blade.php&#10;projectcon&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/app/Http/Controllers/ProjectController.php&#10;projec&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/views/projects.blade.php&#10;custom&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/routes/backpack/custom.php&#10;admincontroller&#9;null&#9;null&#10;base.php&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/config/backpack/base.php&#10;vendor/backpack/base/&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/views/vendor/backpack/base&#10;crudcont&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/vendor/backpack/crud/src/app/Http/Controllers/CrudController.php&#10;proje&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/app/Http/Controllers/ProjectController.php&#10;web&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/routes/web.php&#10;select2&#9;null&#9;null&#10;projectcr&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/app/Http/Controllers/Admin/ProjectCrudController.php&#10;pro&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/app/Http/Controllers/ProjectController.php&#10;home&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/sass/page/_home.scss&#10;controller&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/app/Http/Controllers/Admin/CategoryCrudController.php&#10;git&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/.gitignore&#10;uploads/projec&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/storage/app/public/uploads/projects&#10;projectcont&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/app/Http/Controllers/ProjectController.php&#10;foo&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/sass/component/_footer.scss&#10;nav&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/sass/component/_nav.scss&#10;ba&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/sass/_base.scss&#10;bas&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/sass/_base.scss&#10;mix&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/sass/_mixins.scss&#10;giti&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/.gitignore&#10;we&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/routes/web.php&#10;web.&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/routes/web.php&#10;edit.blade&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/vendor/backpack/crud/src/resources/views/fields/ckeditor.blade.php&#10;uploads/p&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/storage/app/public/uploads/projects&#10;filesystem.php&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/config/filesystems.php&#10;create.blade&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/vendor/backpack/crud/src/resources/views/create.blade.php&#10;crud/&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/public/vendor/backpack/crud&#10;categor&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/app/Models/Category.php&#10;compan&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/app/Models/Company.php&#10;role&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/app/Models/Role.php&#10;cate&#9;null&#9;null&#10;backpack/custom.php&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/routes/backpack/custom.php&#10;env&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/.env&#10;layout&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/views/errors/layout.blade.php&#10;controllers/&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/app/Http/Controllers&#10;web.php&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/routes/web.php" />
+    <property name="SearchEverywhereHistoryKey" value="base.sc&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/sass/_base.scss&#10;bas&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/config/backpack/base.php&#10;projectcru&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/app/Http/Controllers/Admin/ProjectCrudController.php&#10;_mixin&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/sass/_mixins.scss&#10;project&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/sass/page/_projects.scss&#10;show&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/views/projects-show.blade.php&#10;81d4&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/public/storage/public/uploads/projects/81d341016718400b653bfec455ea857d.jpg&#10;project.&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/views/projects.blade.php&#10;projectcon&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/app/Http/Controllers/ProjectController.php&#10;projec&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/views/projects.blade.php&#10;custom&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/routes/backpack/custom.php&#10;admincontroller&#9;null&#9;null&#10;base.php&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/config/backpack/base.php&#10;vendor/backpack/base/&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/views/vendor/backpack/base&#10;crudcont&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/vendor/backpack/crud/src/app/Http/Controllers/CrudController.php&#10;proje&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/app/Http/Controllers/ProjectController.php&#10;web&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/routes/web.php&#10;select2&#9;null&#9;null&#10;projectcr&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/app/Http/Controllers/Admin/ProjectCrudController.php&#10;pro&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/app/Http/Controllers/ProjectController.php&#10;home&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/sass/page/_home.scss&#10;controller&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/app/Http/Controllers/Admin/CategoryCrudController.php&#10;git&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/.gitignore&#10;uploads/projec&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/storage/app/public/uploads/projects&#10;projectcont&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/app/Http/Controllers/ProjectController.php&#10;foo&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/sass/component/_footer.scss&#10;nav&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/sass/component/_nav.scss&#10;ba&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/sass/_base.scss&#10;mix&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/sass/_mixins.scss&#10;giti&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/.gitignore&#10;we&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/routes/web.php&#10;web.&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/routes/web.php&#10;edit.blade&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/vendor/backpack/crud/src/resources/views/fields/ckeditor.blade.php&#10;uploads/p&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/storage/app/public/uploads/projects&#10;filesystem.php&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/config/filesystems.php&#10;create.blade&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/vendor/backpack/crud/src/resources/views/create.blade.php&#10;crud/&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/public/vendor/backpack/crud&#10;categor&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/app/Models/Category.php&#10;compan&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/app/Models/Company.php&#10;role&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/app/Models/Role.php&#10;cate&#9;null&#9;null&#10;backpack/custom.php&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/routes/backpack/custom.php&#10;env&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/.env&#10;layout&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/views/errors/layout.blade.php&#10;controllers/&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/app/Http/Controllers&#10;web.php&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/routes/web.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -485,7 +484,10 @@
       <workItem from="1546720770489" duration="10618000" />
       <workItem from="1546744132619" duration="12971000" />
       <workItem from="1546883078298" duration="9409000" />
-      <workItem from="1546979954030" duration="18472000" />
+      <workItem from="1546979954030" duration="18529000" />
+      <workItem from="1547336945709" duration="1965000" />
+      <workItem from="1547416443152" duration="11000" />
+      <workItem from="1547674398154" duration="188000" />
     </task>
     <task id="LOCAL-00001" summary="testing push">
       <created>1546842759856</created>
@@ -494,16 +496,23 @@
       <option name="project" value="LOCAL" />
       <updated>1546842759857</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Many changes. Got backend edit to work using purely the provided for the Backpack. Made quite a bit of progress on frontend">
+      <created>1547015046655</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1547015046655</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51470000" />
+    <option name="totallyTimeSpent" value="53691000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18070818" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2771673" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -555,40 +564,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="testing push" />
-    <option name="LAST_COMMIT_MESSAGE" value="testing push" />
+    <MESSAGE value="Many changes. Got backend edit to work using purely the provided for the Backpack. Made quite a bit of progress on frontend" />
+    <option name="LAST_COMMIT_MESSAGE" value="Many changes. Got backend edit to work using purely the provided for the Backpack. Made quite a bit of progress on frontend" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/vendor/adminlte/bower_components/select2/dist/js/select2.full.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1396">
-          <caret line="6376" column="5" selection-start-line="6376" selection-start-column="4" selection-end-line="6376" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/vendor/backpack/crud/fields/tool-select2_multiple.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/backpack/crud/src/app/Http/Controllers/CrudController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="38" column="57" selection-start-line="38" selection-start-column="57" selection-end-line="38" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes/backpack/base.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/AdminController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes/backpack/base.php" />
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/AdminController.php" />
     <entry file="file://$PROJECT_DIR$/vendor/backpack/base/src/app/Http/Controllers/AdminController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
@@ -629,13 +610,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Project.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="79" lean-forward="true" selection-start-line="15" selection-start-column="79" selection-end-line="15" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Project.php" />
     <entry file="file://$PROJECT_DIR$/database/migrations/2019_01_06_013823_create_project_tool_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="370">
@@ -647,9 +622,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#40#56#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -743,13 +715,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/backpack/base.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="30" column="27" lean-forward="true" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2019_01_06_020101_insert_roles_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="268">
@@ -778,13 +743,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_01_06_002834_create_projects_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/storage/framework/views/82ca0e32313c48e9b2a7912fa13b58c4caf5ffa7.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="229">
@@ -792,54 +750,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/storage/uploads/projects/0c6f6fd6cb52c19c2043c7ff0d7b2c28.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/storage/uploads/projects/8d7f4e17fecb234c0a8bb1eb858327fc.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/storage/uploads/projects/82b2dfe7b0216ec9caf208855360aba4.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/storage/uploads/projects/293c5f36f5df541ed7b520404cab3422.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/storage/uploads/projects/b9d4c19115afed367c592ecdd2fde2f1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/storage/uploads/projects/a8c9fca55f940fc01665346c045d9e5b.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/storage/uploads/projects/5f7cc6cc0526f4431810c5108fae5e97.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/storage/uploads/projects/f9c8c06f80b8e86a243abab88ff7b07d.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/storage/public/uploads/projects/81d341016718400b653bfec455ea857d.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/public/storage/uploads/projects/0c6f6fd6cb52c19c2043c7ff0d7b2c28.jpg" />
+    <entry file="file://$PROJECT_DIR$/public/storage/uploads/projects/8d7f4e17fecb234c0a8bb1eb858327fc.jpg" />
+    <entry file="file://$PROJECT_DIR$/public/storage/uploads/projects/82b2dfe7b0216ec9caf208855360aba4.jpg" />
+    <entry file="file://$PROJECT_DIR$/public/storage/uploads/projects/293c5f36f5df541ed7b520404cab3422.jpg" />
+    <entry file="file://$PROJECT_DIR$/public/storage/uploads/projects/b9d4c19115afed367c592ecdd2fde2f1.jpg" />
+    <entry file="file://$PROJECT_DIR$/public/storage/uploads/projects/a8c9fca55f940fc01665346c045d9e5b.jpg" />
+    <entry file="file://$PROJECT_DIR$/public/storage/uploads/projects/5f7cc6cc0526f4431810c5108fae5e97.jpg" />
+    <entry file="file://$PROJECT_DIR$/public/storage/uploads/projects/f9c8c06f80b8e86a243abab88ff7b07d.jpg" />
+    <entry file="file://$PROJECT_DIR$/public/storage/public/uploads/projects/81d341016718400b653bfec455ea857d.jpg" />
     <entry file="file://$PROJECT_DIR$/vendor/backpack/crud/src/app/Http/Controllers/Operations/UpdateOperation.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/Project.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="79" column="36" selection-start-line="79" selection-start-column="36" selection-end-line="79" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/projects.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="153" selection-start-line="6" selection-start-column="87" selection-end-line="6" selection-end-column="153" />
-          <folding>
-            <element signature="e#254#324#0#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -850,30 +773,76 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/page/_home.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="66" column="40" selection-start-line="66" selection-start-column="40" selection-end-line="66" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/backpack/base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="30" column="27" lean-forward="true" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/ProjectCrudController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2973">
-          <caret line="154" column="5" selection-start-line="154" selection-start-column="5" selection-end-line="154" selection-end-column="5" />
+        <state relative-caret-position="3082">
+          <caret line="143" column="13" selection-start-line="143" selection-start-column="13" selection-end-line="143" selection-end-column="13" />
           <folding>
             <element signature="e#46#69#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/projects-show.blade.php">
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_01_06_002834_create_projects_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-299">
-          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
-          <folding>
-            <element signature="e#352#418#0#HTML" expanded="true" />
-          </folding>
+        <state relative-caret-position="483">
+          <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/_base.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="897">
+          <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Project.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1771">
+          <caret line="79" column="36" selection-start-line="79" selection-start-column="36" selection-end-line="79" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/sass/page/_projects.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        <state relative-caret-position="1357">
+          <caret line="59" column="16" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/projects.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/projects-show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="603">
+          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
         </state>
       </provider>
     </entry>

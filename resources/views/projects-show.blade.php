@@ -3,17 +3,21 @@
 
     <div class="group content-project-single">
         <h1>{{ $project->name }}</h1>
-        <p>{{ $project->companies->name }}</p>
-        <p>{{ $project->year }}</p>
+        <p class="display-inline">{{ $project->year }} |</p>
+        <p class="display-inline">{{ $project->companies->name }}</p>
         @if(!is_null($project->url))
-            <a href="{{ $project->url }}">Website</a>
+            | <a class="display-inline" href="{{ $project->url }}">URL</a>
         @endif
 
-        <div class="project-thumbnail" style="background-image: url('../storage/{{ $project->image }}');"></div>
+        <p>{{ $project->short_description }}</p>
+
+        <img class="project-thumbnail" src="../storage/{{ $project->image }}">
 
         <div>
             {!!  $project->description !!}
         </div>
+
+        <p>PUT SKILLS AND TOOLS AND ROLES HERE</p>
 
         <div class="other-projects">
             <div class="previous-project">
