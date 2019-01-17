@@ -136,6 +136,10 @@ class ProjectCrudController extends CrudController
             'pivot' => true,
         ]);
         $this->crud->addField([
+            'name' => 'quote',
+            'type' => 'text',
+        ]);
+        $this->crud->addField([
             'name' => 'short_description',
             'type' => 'ckeditor',
             'options' => [

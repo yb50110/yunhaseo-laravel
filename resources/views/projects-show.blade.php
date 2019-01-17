@@ -2,28 +2,61 @@
 @section('content')
 
     <div class="group content-project-single">
-        <h1>{{ $project->name }}</h1>
-        <p class="display-inline">{{ $project->year }} |</p>
-        <p class="display-inline">{{ $project->companies->name }}</p>
-        @if(!is_null($project->url))
-            | <a class="display-inline" href="{{ $project->url }}">URL</a>
-        @endif
+        <h1 class="project-name">{{ $project->name }}</h1>
 
-        <p>{{ $project->short_description }}</p>
+        <div class="group">
+            <p class="display-inline">{{ $project->year }} |</p>
+            <p class="display-inline">{{ $project->companies->name }}</p>
+            @if(!is_null($project->url))
+                | <a class="display-inline" href="{{ $project->url }}">URL</a>
+            @endif
+        </div>
+
+        <div class="group">
+            <div class="project-shortdescription">{!! $project->short_description  !!}</div>
+
+            <div class="group">
+                <ul class="project-roles">
+                    <p>Role Taken</p>
+                    @foreach($project->roles as $role)
+                        <li>{{ $role->name }}</li>
+                    @endforeach
+                </ul>
+                <ul class="project-skills">
+                    <p>Takeaway Skills</p>
+                    @foreach($project->skills as $skill)
+                        <li>{{ $skill->name }}</li>
+                    @endforeach
+                </ul>
+            </div>
+        </div>
 
         <img class="project-thumbnail" src="../storage/{{ $project->image }}">
 
-        <div>
+        <div class="group-right">
+            <p class="project-quote">
+                "BLAH BLAH BLAH"
+                {{--todo--}}
+            </p>
+            <ul class="project-tools">
+                <p>Utilized Tools</p>
+                @foreach($project->tools as $tool)
+                    <li>{{ $tool->name }}</li>
+                @endforeach
+            </ul>
+        </div>
+
+        <div class="project-description">
             {!!  $project->description !!}
         </div>
 
-        <p>PUT SKILLS AND TOOLS AND ROLES HERE</p>
 
-        <div class="other-projects">
+        <div class="group">
             <div class="previous-project">
                 @if(!is_null($prev_project))
                     <p>Previous Project</p>
                     <a href="{{ route('projects.show', $prev_project) }}">{{ $prev_project->name }}</a>
+                    {{--todo--}}
                 @endif
             </div>
             <div class="next-project">
@@ -34,11 +67,14 @@
             </div>
         </div>
 
-
     </div>
 
 @endsection
 
 @section('scripts')
+
+    <script>
+        $(".project-description p img").unwrap();
+    </script>
 
 @append

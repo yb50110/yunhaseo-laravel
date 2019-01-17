@@ -22,6 +22,7 @@ class CreateProjectsTable extends Migration
             $table->boolean('featured');
             $table->longText('short_description');
             $table->longText('description');
+            $table->longText('quote');
             $table->string('year');
             $table->string('url')->nullable();
             $table->string('image')->nullable();

@@ -6,8 +6,12 @@
             <div class="group project-container">
                 <a href="{{ route('projects.show', $project) }}" class="project-image" style="background-image: url('../storage/{{ $project->image }}');"></a>
                 <h2 class="project-name"><a href="{{ route('projects.show', $project) }}">{{ $project->name }}</a></h2>
-                @foreach($project->categories as $cat)
-                    <p class="project-category">{{ $cat->name }} <br></p>
+                @foreach($project->categories as $index=>$cat)
+                    @if($index != count($project->categories)-1)
+                        <p class="project-category">{{ $cat->name }}</p>
+                    @else
+                        <p class="project-category">{{ $cat->name }},&nbsp;</p>
+                    @endif
                 @endforeach
             </div>
         @endforeach

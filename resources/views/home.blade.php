@@ -4,8 +4,8 @@
     <div class="content-home">
         <div class="extra-padding">
             <div class="korean-hello">안녕!</div>
-            <h1>I'm Yun Ha</h1>
-            <p class="description">a developer, designer, illustrator, comic author, gamer, passionate learner, and a lover of all good food without cilantro.</p>
+            <h1>I'm Yunha</h1>
+            <p class="description">developer, designer, illustrator, comic author, gamer, passionate learner, and a lover of all good food without cilantro.</p>
         </div>
 
         <div class="group images">
@@ -25,6 +25,7 @@
         </div>
 
         <p class="description">Feel free to <a href="">say hello</a>!</p>
+        {{--todo: add copy email functionality--}}
 
     </div>
 
