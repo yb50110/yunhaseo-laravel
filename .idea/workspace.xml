@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1771dbb-e9f7-4df0-92b3-f055fb632b14" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/sass/mobile-app.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/scripts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/mobile-app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/mobile-app.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/sass/page/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/page/_home.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/sass/page/_projects.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/page/_projects.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/projects-show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/projects-show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/projects.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/projects.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +43,7 @@
           <entry key="log" value="2" />
           <entry key="php" value="183" />
           <entry key="png" value="3" />
-          <entry key="scss" value="48" />
+          <entry key="scss" value="50" />
           <entry key="svg" value="1" />
         </counts>
       </usages-collector>
@@ -67,7 +57,7 @@
           <entry key="Log" value="2" />
           <entry key="PHP" value="152" />
           <entry key="PLAIN_TEXT" value="5" />
-          <entry key="SCSS" value="48" />
+          <entry key="SCSS" value="50" />
           <entry key="SVG" value="1" />
           <entry key="htaccess" value="1" />
         </counts>
@@ -79,19 +69,19 @@
           <entry key="gitignore" value="148" />
           <entry key="htaccess" value="4" />
           <entry key="js" value="580" />
-          <entry key="php" value="11219" />
-          <entry key="scss" value="6370" />
-          <entry key="txt" value="195" />
+          <entry key="php" value="11220" />
+          <entry key="scss" value="6680" />
+          <entry key="txt" value="269" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key=".env file" value="22" />
-          <entry key="Blade" value="4362" />
+          <entry key="Blade" value="4363" />
           <entry key="JavaScript" value="580" />
           <entry key="PHP" value="6857" />
-          <entry key="PLAIN_TEXT" value="347" />
-          <entry key="SCSS" value="6370" />
+          <entry key="PLAIN_TEXT" value="421" />
+          <entry key="SCSS" value="6680" />
           <entry key="htaccess" value="4" />
         </counts>
       </usages-collector>
@@ -102,8 +92,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/app.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+            <state relative-caret-position="299">
+              <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -111,8 +101,26 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/sass/mobile-app.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+            <state relative-caret-position="1771">
+              <caret line="104" column="5" lean-forward="true" selection-start-line="104" selection-start-column="5" selection-end-line="104" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/sass/page/_projects.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/sass/page/_home.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="166">
+              <caret line="55" column="3" selection-start-line="55" selection-start-column="3" selection-end-line="55" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -193,14 +201,14 @@
         <option value="$PROJECT_DIR$/resources/sass/_mixins.scss" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
         <option value="$PROJECT_DIR$/resources/views/projects-show.blade.php" />
-        <option value="$PROJECT_DIR$/resources/sass/page/_home.scss" />
-        <option value="$PROJECT_DIR$/resources/sass/page/_projects.scss" />
         <option value="$PROJECT_DIR$/webpack.mix.js" />
         <option value="$PROJECT_DIR$/resources/views/home.blade.php" />
         <option value="$PROJECT_DIR$/resources/sass/_base.scss" />
         <option value="$PROJECT_DIR$/resources/js/scripts.js" />
         <option value="$PROJECT_DIR$/resources/sass/_variables.scss" />
         <option value="$PROJECT_DIR$/resources/views/app.blade.php" />
+        <option value="$PROJECT_DIR$/resources/sass/page/_projects.scss" />
+        <option value="$PROJECT_DIR$/resources/sass/page/_home.scss" />
         <option value="$PROJECT_DIR$/resources/sass/mobile-app.scss" />
       </list>
     </option>
@@ -409,7 +417,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="bas&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/sass/_base.scss&#10;webpack&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/webpack.mix.js&#10;varia&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/sass/_variables.scss&#10;base&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/sass/_base.scss&#10;script&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/js/scripts.js&#10;projectcon&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/app/Http/Controllers/ProjectController.php&#10;scripts.js&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/js/scripts.js&#10;mixi&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/sass/_mixins.scss&#10;project.&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/views/projects.blade.php&#10;variable.s&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/sass/_variables.scss&#10;base.sc&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/sass/_base.scss&#10;projectcru&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/app/Http/Controllers/Admin/ProjectCrudController.php&#10;_mixin&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/sass/_mixins.scss&#10;project&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/sass/page/_projects.scss&#10;show&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/views/projects-show.blade.php&#10;81d4&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/public/storage/public/uploads/projects/81d341016718400b653bfec455ea857d.jpg&#10;projec&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/views/projects.blade.php&#10;custom&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/routes/backpack/custom.php&#10;admincontroller&#9;null&#9;null&#10;base.php&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/config/backpack/base.php&#10;vendor/backpack/base/&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/views/vendor/backpack/base&#10;crudcont&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/vendor/backpack/crud/src/app/Http/Controllers/CrudController.php&#10;proje&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/app/Http/Controllers/ProjectController.php&#10;web&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/routes/web.php&#10;select2&#9;null&#9;null&#10;projectcr&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/app/Http/Controllers/Admin/ProjectCrudController.php&#10;pro&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/app/Http/Controllers/ProjectController.php&#10;home&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/sass/page/_home.scss&#10;controller&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/app/Http/Controllers/Admin/CategoryCrudController.php&#10;git&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/.gitignore&#10;uploads/projec&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/storage/app/public/uploads/projects&#10;projectcont&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/app/Http/Controllers/ProjectController.php&#10;foo&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/sass/component/_footer.scss&#10;nav&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/sass/component/_nav.scss&#10;ba&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/sass/_base.scss&#10;mix&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/sass/_mixins.scss&#10;giti&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/.gitignore&#10;we&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/routes/web.php&#10;web.&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/routes/web.php&#10;edit.blade&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/vendor/backpack/crud/src/resources/views/fields/ckeditor.blade.php&#10;uploads/p&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/storage/app/public/uploads/projects&#10;filesystem.php&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/config/filesystems.php&#10;create.blade&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/vendor/backpack/crud/src/resources/views/create.blade.php&#10;crud/&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/public/vendor/backpack/crud&#10;categor&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/app/Models/Category.php&#10;compan&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/app/Models/Company.php&#10;role&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/app/Models/Role.php&#10;cate&#9;null&#9;null&#10;backpack/custom.php&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/routes/backpack/custom.php&#10;env&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/.env" />
+    <property name="SearchEverywhereHistoryKey" value="home&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/sass/page/_home.scss&#10;proj&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/sass/page/_projects.scss&#10;bas&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/sass/_base.scss&#10;webpack&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/webpack.mix.js&#10;varia&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/sass/_variables.scss&#10;base&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/sass/_base.scss&#10;script&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/js/scripts.js&#10;projectcon&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/app/Http/Controllers/ProjectController.php&#10;scripts.js&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/js/scripts.js&#10;mixi&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/sass/_mixins.scss&#10;project.&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/views/projects.blade.php&#10;variable.s&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/sass/_variables.scss&#10;base.sc&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/sass/_base.scss&#10;projectcru&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/app/Http/Controllers/Admin/ProjectCrudController.php&#10;_mixin&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/sass/_mixins.scss&#10;project&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/sass/page/_projects.scss&#10;show&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/views/projects-show.blade.php&#10;81d4&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/public/storage/public/uploads/projects/81d341016718400b653bfec455ea857d.jpg&#10;projec&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/views/projects.blade.php&#10;custom&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/routes/backpack/custom.php&#10;admincontroller&#9;null&#9;null&#10;base.php&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/config/backpack/base.php&#10;vendor/backpack/base/&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/views/vendor/backpack/base&#10;crudcont&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/vendor/backpack/crud/src/app/Http/Controllers/CrudController.php&#10;proje&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/app/Http/Controllers/ProjectController.php&#10;web&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/routes/web.php&#10;select2&#9;null&#9;null&#10;projectcr&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/app/Http/Controllers/Admin/ProjectCrudController.php&#10;pro&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/app/Http/Controllers/ProjectController.php&#10;controller&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/app/Http/Controllers/Admin/CategoryCrudController.php&#10;git&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/.gitignore&#10;uploads/projec&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/storage/app/public/uploads/projects&#10;projectcont&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/app/Http/Controllers/ProjectController.php&#10;foo&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/sass/component/_footer.scss&#10;nav&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/sass/component/_nav.scss&#10;ba&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/sass/_base.scss&#10;mix&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/sass/_mixins.scss&#10;giti&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/.gitignore&#10;we&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/routes/web.php&#10;web.&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/routes/web.php&#10;edit.blade&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/vendor/backpack/crud/src/resources/views/fields/ckeditor.blade.php&#10;uploads/p&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/storage/app/public/uploads/projects&#10;filesystem.php&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/config/filesystems.php&#10;create.blade&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/vendor/backpack/crud/src/resources/views/create.blade.php&#10;crud/&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/public/vendor/backpack/crud&#10;categor&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/app/Models/Category.php&#10;compan&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/app/Models/Company.php&#10;role&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/app/Models/Role.php&#10;cate&#9;null&#9;null&#10;backpack/custom.php&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/routes/backpack/custom.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -457,7 +465,7 @@
       <workItem from="1546979954030" duration="18529000" />
       <workItem from="1547336945709" duration="1965000" />
       <workItem from="1547416443152" duration="11000" />
-      <workItem from="1547674398154" duration="20453000" />
+      <workItem from="1547674398154" duration="23207000" />
     </task>
     <task id="LOCAL-00001" summary="testing push">
       <created>1546842759856</created>
@@ -487,15 +495,21 @@
       <option name="project" value="LOCAL" />
       <updated>1547688937245</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Worked on finishing project show pages and began on mobile css">
+      <created>1547777570086</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1547777570086</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73956000" />
+    <option name="totallyTimeSpent" value="76710000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21550672" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -512,7 +526,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.056016598" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.31431535" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -552,7 +566,8 @@
     <MESSAGE value="Many changes. Got backend edit to work using purely the provided for the Backpack. Made quite a bit of progress on frontend" />
     <MESSAGE value="Past changes" />
     <MESSAGE value="Work on project show page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Work on project show page" />
+    <MESSAGE value="Worked on finishing project show pages and began on mobile css" />
+    <option name="LAST_COMMIT_MESSAGE" value="Worked on finishing project show pages and began on mobile css" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/Models/ProjectTool.php">
@@ -774,13 +789,6 @@
     <entry file="file://$PROJECT_DIR$/resources/images/me_buro.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/page/_projects.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="140" column="26" selection-start-line="140" selection-start-column="26" selection-end-line="140" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webpack.mix.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="529">
@@ -807,13 +815,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/page/_home.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="75" column="16" selection-start-line="75" selection-start-column="16" selection-end-line="75" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/sass/_reset.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -833,15 +834,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/app.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        <state relative-caret-position="299">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/page/_home.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="55" column="3" selection-start-line="55" selection-start-column="3" selection-end-line="55" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/page/_projects.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/sass/mobile-app.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        <state relative-caret-position="1771">
+          <caret line="104" column="5" lean-forward="true" selection-start-line="104" selection-start-column="5" selection-end-line="104" selection-end-column="5" />
         </state>
       </provider>
     </entry>

@@ -54,11 +54,6 @@
     margin-top: 80px;
     font-size: 2em;
   }
-  .project-container {
-    .project-image {
-      height: 500px;
-    }
-  }
 
   a {
     @include transition(all, .2s, ease);
