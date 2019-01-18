@@ -2,11 +2,8 @@
   padding-bottom: 100px;
   margin-top: 25vh;
 
-  .extra-padding {
-    padding: 0 20px;
-  }
-
   h1 {
+    margin-top: 40px;
     margin-bottom: 30px;
     font-weight: 700;
     font-size: 5em;
@@ -22,15 +19,15 @@
   .description {
     margin-bottom: 50px;
     line-height: 1.4em;
-    font-size: 2.5em;
-    width: 60vw;
+    font-size: 2em;
+    width: 50%;
   }
   .email {
     font-size: 2em;
   }
 
   .images {
-    margin: 100px 0 150px 0;
+    margin: 100px 0;
 
     > div {
       display: inline-block;
@@ -38,32 +35,65 @@
     }
 
     .width-60 {
-      background-color: $gray; // placeholder
+      @include background-image-style;
       width: calc(60% - 40px);
+      display: inline-block;
+      border-bottom: none;
+      height: 600px;
       float: left;
     }
     .width-40 {
-      background-color: $gold; // placeholder
+      @include background-image-style;
       float: right;
       width: 40%;
     }
-    .width-50-left {
-      background-color: $gray; // placeholder
-      width: calc(50% - 20px);
-      float: left;
-    }
-    .width-50-right {
-      background-color: $gray; // placeholder
-      width: calc(50% - 20px);
-      float: right;
-    }
-    .more {
-      margin-top: 20px;
-      float: left;
+  }
+
+  .more {
+    margin-bottom: 50px;
+    margin-top: 80px;
+    font-size: 2em;
+  }
+  .project-container {
+    .project-image {
+      height: 500px;
     }
   }
 
   a {
     @include transition(all, .2s, ease);
+  }
+}
+
+.email-container {
+  position: relative;
+
+  a {
+    cursor: pointer;
+  }
+
+  .email-options {
+    position: absolute;
+    display: none;
+    left: 350px;
+    top: 0;
+
+    a {
+      border-bottom: none;
+      margin-bottom: 5px;
+      display: block;
+    }
+    input {
+      position: absolute;
+      z-index: -1;
+      opacity: 0;
+      bottom: 0;
+    }
+  }
+  .email-copy-success {
+    position: absolute;
+    display: none;
+    left: 350px;
+    top: 15px;
   }
 }

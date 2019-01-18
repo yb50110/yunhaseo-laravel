@@ -2,14 +2,25 @@
 @section('content')
 
     <div class="group content-project-single">
-        <h1 class="project-name">{{ $project->name }}</h1>
+        <div class="project-category">
+            @foreach($project->categories as $index=>$cat)
+                @if($index != count($project->categories)-1)
+                    <p>{{ $cat->name }},</p>
+                @else
+                    <p>{{ $cat->name }}</p>
+                @endif
+            @endforeach
+        </div>
 
         <div class="group">
-            <p class="display-inline">{{ $project->year }} |</p>
-            <p class="display-inline">{{ $project->companies->name }}</p>
-            @if(!is_null($project->url))
-                | <a class="display-inline" href="{{ $project->url }}">URL</a>
-            @endif
+            <h1 class="project-name">{{ $project->name }}</h1>
+            <div class="project-info">
+                <p>{{ $project->year }}</p>
+                <p>{{ $project->companies->name }}</p>
+                @if(!is_null($project->url))
+                    | <a href="{{ $project->url }}" target="_blank">Project Link</a>
+                @endif
+            </div>
         </div>
 
         <div class="group">
@@ -31,12 +42,15 @@
             </div>
         </div>
 
-        <img class="project-thumbnail" src="../storage/{{ $project->image }}">
+        <div class="project-thumbnail" style="background-image: url('../storage/{{ $project->image }}');"></div>
+        <div class="project-thumbnail-enlarged">
+            <div class="background"></div>
+            <img src="../storage/{{ $project->image }}">
+        </div>
 
         <div class="group-right">
             <p class="project-quote">
-                "BLAH BLAH BLAH"
-                {{--todo--}}
+                "{{ $project->quote }}"
             </p>
             <ul class="project-tools">
                 <p>Utilized Tools</p>
@@ -47,7 +61,7 @@
         </div>
 
         <div class="project-description">
-            {!!  $project->description !!}
+            {!! $project->description !!}
         </div>
 
 
@@ -56,7 +70,6 @@
                 @if(!is_null($prev_project))
                     <p>Previous Project</p>
                     <a href="{{ route('projects.show', $prev_project) }}">{{ $prev_project->name }}</a>
-                    {{--todo--}}
                 @endif
             </div>
             <div class="next-project">
@@ -70,11 +83,3 @@
     </div>
 
 @endsection
-
-@section('scripts')
-
-    <script>
-        $(".project-description p img").unwrap();
-    </script>
-
-@append

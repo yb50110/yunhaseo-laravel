@@ -7,9 +7,11 @@
         <title>Yunha's Space</title>
 
         {{-- Favicon --}}
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico">
 
         {{-- Stylesheets --}}
-        <link href="{{ mix('css/app.css') }}" rel="stylesheet">
+        <link rel="stylesheet" href="{{ mix('css/app.css') }}">
+        <link rel="stylesheet" href="{{ mix('css/mobile-app.css') }}">
 
     </head>
     <body>
@@ -26,9 +28,9 @@
         @yield('content')
 
         <footer>
-            <a href="https://www.linkedin.com/in/yunha-seo/">LinkedIn</a>
-            <a href="https://github.com/yb50110">Github</a>
-            <a href="https://www.webtoons.com/en/challenge/lost-crayons/list?title_no=79177">Webtoon</a>
+            <a href="https://www.linkedin.com/in/yunha-seo/" target="_blank">LinkedIn</a>
+            <a href="https://github.com/yb50110" target="_blank">Github</a>
+            <a href="https://www.webtoons.com/en/challenge/lost-crayons/list?title_no=79177" target="_blank">Webtoon</a>
         </footer>
 
     </body>

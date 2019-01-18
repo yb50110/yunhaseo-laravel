@@ -1,48 +1,52 @@
 .content-project {
   padding-bottom: 100px;
   margin-top: 100px;
+}
 
-  .project-container {
-    width: calc(50% - 25px);
-    float: left;
+.project-container {
+  width: calc(50% - 25px);
+  margin-bottom: 50px;
+  float: left;
 
-    &:nth-of-type(odd) {
-      margin-right: 50px;
+  &:nth-of-type(odd) {
+    margin-right: 50px;
+  }
+
+  .project-image {
+    margin-bottom: 15px;
+    position: relative;
+    display: block;
+    height: 600px;
+    border: none;
+    @include background-image-style;
+    &:before {
+      background: #000000;
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      content: '';
+      opacity: 0;
+      @include transition(all, 0.3s, ease);
     }
-
-    .project-image {
-      margin-bottom: 15px;
-      position: relative;
-      display: block;
-      height: 600px;
-      border: none;
-      @include background-image-style;
+    &:hover {
       &:before {
-        background: #000000;
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        content: '';
-        opacity: 0;
-        @include transition(all, 0.3s, ease);
-      }
-      &:hover {
-        &:before {
-          opacity: 0.3;
-        }
+        opacity: 0.3;
       }
     }
-    .project-name {
-      font-size: 1em;
-      float: left;
-      a {
-        border: none;
-      }
+  }
+  .project-name {
+    font-size: 1em;
+    float: left;
+    a {
+      border: none;
     }
-    .project-category {
-      font-size: 0.8em;
-      color: $gray;
-      float: right;
+  }
+  .project-category {
+    font-size: 0.8em;
+    color: $gray;
+    float: right;
+    p {
+      display: inline-block;
     }
   }
 }
@@ -64,12 +68,52 @@
   }
 
   .project-name {
+    display: inline-block;
     margin-bottom: 40px;
     font-size: 2.5em;
     font-weight: 700;
+    width: 50%;
   }
+
+  .project-category {
+    margin-bottom: 0;
+    color: $gray;
+    p {
+      display: inline-block;
+    }
+  }
+
   .project-thumbnail {
+    margin: 100px 0;
+    height: 700px;
     @include background-image-style;
+    @include enlarge-image;
+  }
+  .project-thumbnail-enlarged {
+    position: fixed;
+    display: none;
+    z-index: 1;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+
+    .background {
+      background: rgba(255, 255, 255, 0.9);
+      position: absolute;
+      cursor: pointer;
+      height: 100%;
+      width: 100%;
+    }
+    img {
+      position: relative;
+      margin-right: auto;
+      margin-left: auto;
+      max-height: 90vh;
+      display: block;
+      width: initial !important;
+      height: initial !important;
+    }
   }
 
   .project-roles, .project-skills, .project-tools, .project-quote {
@@ -98,6 +142,24 @@
       width: 100%;
     }
   }
+  .project-info {
+    vertical-align: bottom;
+    display: inline-block;
+    margin-bottom: 20px;
+    padding-left: 30px;
+    color: $gray;
+    width: 45%;
+    p, a {
+      display: inline-block;
+    }
+    a {
+      border-bottom-color: $gray;
+      color: $gray;
+      &:hover {
+        border-bottom-color: transparent;
+      }
+    }
+  }
 
   .project-quote {
     font-weight: 700;
@@ -110,12 +172,18 @@
     width: 40%;
   }
   .project-description {
-    > p {
-      font-size: 1.2em;
+    p {
+      //font-size: 1.2em;
       width: 50%;
     }
   }
 
+  .previous-project, .next-project {
+    p {
+      color: $gray;
+    }
+    margin: 100px 0 0 0;
+  }
   .previous-project {
     float: left;
     width: 50%;
