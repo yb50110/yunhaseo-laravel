@@ -15,7 +15,7 @@ class InsertCategoriesTable extends Migration
     {
         DB::table('categories')->insert(['name' => 'Development']);
         DB::table('categories')->insert(['name' => 'Design']);
-        DB::table('categories')->insert(['name' => 'Illustration']);
+//        DB::table('categories')->insert(['name' => 'Illustration']);
     }
 
     /**

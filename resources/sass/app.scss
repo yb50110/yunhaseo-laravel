@@ -2,8 +2,6 @@
 @import 'reset';
 
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=Lora:400,700');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:800');
 
 // Variables
@@ -26,6 +24,5 @@
 
 // Components
 @import
-  'component/nav',
-  'component/footer'
+  'component/nav'
 ;

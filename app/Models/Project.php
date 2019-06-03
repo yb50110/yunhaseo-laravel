@@ -20,7 +20,7 @@ class Project extends Model
     // protected $primaryKey = 'id';
     // public $timestamps = false;
     // protected $guarded = ['id'];
-    protected $fillable = ['name', 'featured', 'quote', 'description', 'short_description', 'year', 'url', 'company_id', 'image'];
+    protected $fillable = ['name', 'description', 'year', 'url', 'backgroundColor', 'textColor', 'image'];
     // protected $hidden = [];
     // protected $dates = [];
 
@@ -38,22 +38,6 @@ class Project extends Model
     public function categories()
     {
         return $this->belongsToMany('App\Models\Category', 'project_category', 'project_id', 'category_id');
-    }
-    public function companies()
-    {
-        return $this->belongsTo('App\Models\Company', 'company_id');
-    }
-    public function roles()
-    {
-        return $this->belongsToMany('App\Models\Role', 'project_role');
-    }
-    public function tools()
-    {
-        return $this->belongsToMany('App\Models\Tool', 'project_tool');
-    }
-    public function skills()
-    {
-        return $this->belongsToMany('App\Models\Skill', 'project_skill');
     }
 
     /*

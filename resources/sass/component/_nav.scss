@@ -1,23 +1,36 @@
 nav {
-  position: relative;
-  float: right;
+  background: #ffffff;
+  overflow-y: scroll;
+  min-height: 100vh;
+  position: fixed;
+  padding: 35px;
+  width: 300px;
   z-index: 1;
+  bottom: 0;
+  top: 0;
 
-  a {
-    display: inline-block;
+  p, a {
+    text-transform: lowercase;
     border-bottom: none;
-    margin: 0 0 0 60px;
-    padding: 10px 0;
-    opacity: 0.3;
-    @include transition(all, .3s, ease);
+    display: block;
+    padding: 0;
+    margin: 0;
 
-    &:hover {
-      border-bottom: none;
-      opacity: 1;
-    }
+    &.link {
+      &:hover {
+        font-style: italic;
+        cursor: pointer;
+        color: $red;
+      }
 
-    &.active {
-      opacity: 1;
+      &.active {
+        color: $red;
+      }
     }
+  }
+
+  .yunhaseo-logo {
+    margin-bottom: 20px;
+    width: 45px;
   }
 }

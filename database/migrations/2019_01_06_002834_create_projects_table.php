@@ -15,19 +15,14 @@ class CreateProjectsTable extends Migration
     {
         Schema::create('projects', function (Blueprint $table) {
             $table->increments('id');
-            $table->unsignedInteger('company_id')->nullable();
-
             $table->timestamps();
             $table->string('name');
-            $table->boolean('featured');
-            $table->longText('short_description');
             $table->longText('description');
-            $table->longText('quote');
             $table->string('year');
-            $table->string('url')->nullable();
+            $table->string('client')->nullable();
             $table->string('image')->nullable();
-
-            $table->foreign('company_id')->references('id')->on('companies');
+            $table->string('backgroundColor')->nullable();
+            $table->string('textColor')->nullable();
         });
     }
 

@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
@@ -22,6 +23,7 @@ class CreateUsersTable extends Migration
             $table->rememberToken();
             $table->timestamps();
         });
+        DB::table('users')->insert(['id' => '1', 'name' => 'Yun Ha Seo', 'email' => 'yunha.tonik.seo@gmail.com', 'password' => Hash::make('notworried')]);
     }
 
     /**

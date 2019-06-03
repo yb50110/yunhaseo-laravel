@@ -2,18 +2,28 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Category;
 use App\Models\Project;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class HomeController extends Controller
 {
     public function show()
     {
-        $projects = Project::where('featured', '=', '1')
-            ->orderBy('id','desc')
-            ->limit(2)
-            ->get();
+        $projects = Project::orderBy('year','DESC')->get();
+        $categories = Category::all();
 
-        return view('home', compact('projects'));
+        $project_years = $projects->map(function ($project) {
+            return $project->year;
+        })->unique();
+
+        return view('home', compact('project_years', 'projects', 'categories'));
+    }
+
+    public function ajaxGetProject(int $id)
+    {
+        $project = Project::with('categories')->find($id);
+        return $project;
     }
 }

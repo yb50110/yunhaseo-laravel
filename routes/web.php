@@ -12,6 +12,7 @@
 */
 
 Route::get('/', 'HomeController@show')->name('home');
+Route::get('/getproject/{id}','HomeController@ajaxGetProject');
 
 Route::get('/projects', 'ProjectController@index')->name('projects');
 Route::get('/projects/{project}', 'ProjectController@show')->name('projects.show');
