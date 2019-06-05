@@ -7,7 +7,13 @@
         <title>Yunha's Space</title>
 
         {{-- Favicon todo --}}
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico">
+        <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#c31b31">
+        <meta name="msapplication-TileColor" content="#c31b31">
+        <meta name="theme-color" content="#c31b31">
 
         {{-- Stylesheets --}}
         <link rel="stylesheet" href="{{ mix('css/app.css') }}">
@@ -31,27 +37,24 @@
             <br>
             <br>
             @foreach($categories as $cat)
-                <a class="link" href="">{{ $cat->name }}</a>
+                <p class="link" id="link-to-{{ $cat->name }}" onclick="listProjects('{{ $cat->name }}')">{{ $cat->name }}</p>
             @endforeach
             <br>
 
 {{--            foreach year... list project--}}
             @foreach($project_years as $year)
-                <a class="link" href="">{{ $year }}</a>
+                <p class="link" id="link-to-cat-{{ $year }}" onclick="listProjects('{{ $year }}')">{{ $year }}</p>
 
                 @foreach($projects as $project)
                     @if($project->year == $year)
 {{--                        <a href="{{ route('projects.show', $project) }}">{{ $project->name }}</a>--}}
-                        <p class="link" id="link-to-project-{{ $project->id }}" onclick="getProject({{ $project->id }})">{{ $project->name }}</p>
+                        <p class="link" id="link-to-{{ $project->id }}" onclick="getProject({{ $project->id }})">{{ $project->name }}</p>
                     @endif
                 @endforeach
 
                 <br>
             @endforeach
 
-
-{{--            <a href="{{ route('home') }}" class="{{ Route::currentRouteName() == 'home' ? 'active' : '' }}">About</a>--}}
-{{--            <a href="{{ route('projects') }}" class="{{ Route::currentRouteName() == 'projects' ? 'active' : '' }}">Projects</a>--}}
         </nav>
 
         @yield('content')

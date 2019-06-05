@@ -1,0 +1,14 @@
+{
+    "name": "yunhaseo",
+    "short_name": "yunhaseo",
+    "icons": [
+        {
+            "src": "/android-chrome-72x72.png",
+            "sizes": "72x72",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#c31b31",
+    "background_color": "#c31b31",
+    "display": "standalone"
+}

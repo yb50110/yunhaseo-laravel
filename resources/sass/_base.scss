@@ -16,12 +16,12 @@ body {
 
 a {
   text-decoration: none;
-  color: #000000;
+  color: $red;
 
   &:hover {
     text-decoration: none;
     font-style: italic;
-    color: $red;
+    color: inherit;
   }
 }
 
