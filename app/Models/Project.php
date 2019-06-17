@@ -20,7 +20,7 @@ class Project extends Model
     // protected $primaryKey = 'id';
     // public $timestamps = false;
     // protected $guarded = ['id'];
-    protected $fillable = ['name', 'description', 'year', 'client', 'url', 'backgroundColor', 'textColor', 'image'];
+    protected $fillable = ['name', 'visible', 'description', 'year', 'client', 'url', 'backgroundColor', 'textColor', 'image'];
     // protected $hidden = [];
     // protected $dates = [];
 

@@ -11,7 +11,7 @@ class HomeController extends Controller
 {
     public function show()
     {
-        $projects = Project::orderBy('year','DESC')->get();
+        $projects = Project::where('visible', true)->orderBy('year','DESC')->get();
         $categories = Category::all();
 
         $project_years = $projects->map(function ($project) {

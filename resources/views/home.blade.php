@@ -59,13 +59,19 @@
             // show only those with cat
             const all_projects = $('.project-thumbnail');
 
-            $.each( all_projects, function( key, value ) {
-                if($(value).hasClass(cat)) {
+            if (cat === 'all') {
+                $.each( all_projects, function( key, value ) {
                     $(value).show();
-                } else {
-                    $(value).hide();
-                }
-            });
+                });
+            } else {
+                $.each( all_projects, function( key, value ) {
+                    if($(value).hasClass(cat)) {
+                        $(value).show();
+                    } else {
+                        $(value).hide();
+                    }
+                });
+            }
         }
 
         function getProject(id)

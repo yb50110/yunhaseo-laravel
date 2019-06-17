@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class InsertCategoriesTable extends Migration
+class UpdateProjectsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,9 +13,10 @@ class InsertCategoriesTable extends Migration
      */
     public function up()
     {
-        DB::table('categories')->insert(['name' => 'Development']);
-        DB::table('categories')->insert(['name' => 'Design']);
-        DB::table('categories')->insert(['name' => 'Illustration']);
+        Schema::table('projects', function($table)
+        {
+            $table->boolean('visible')->after('id');
+        });
     }
 
     /**
@@ -25,6 +26,6 @@ class InsertCategoriesTable extends Migration
      */
     public function down()
     {
-        DB::table('categories')->delete();
+        //
     }
 }

@@ -40,6 +40,10 @@ class ProjectCrudController extends CrudController
             'type' => 'text',
         ]);
         $this->crud->addColumn([
+            'name' => 'visible',
+            'type' => 'text',
+        ]);
+        $this->crud->addColumn([
             'name' => 'name',
             'type' => 'text',
         ]);
@@ -53,6 +57,10 @@ class ProjectCrudController extends CrudController
         $this->crud->addField([
             'name' => 'name',
             'type' => 'text',
+        ]);
+        $this->crud->addField([
+            'name' => 'visible',
+            'type' => 'checkbox',
         ]);
         $this->crud->addField([
             'label' => 'Thumbnail image',

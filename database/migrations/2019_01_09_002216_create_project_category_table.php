@@ -20,8 +20,8 @@ class CreateProjectCategoryTable extends Migration
             $table->unsignedInteger('project_id');
             $table->unsignedInteger('category_id');
 
-            $table->foreign('project_id')->references('id')->on('projects');
-            $table->foreign('category_id')->references('id')->on('categories');
+            $table->foreign('project_id')->references('id')->on('projects')->onDelete('cascade');
+            $table->foreign('category_id')->references('id')->on('categories')->onDelete('cascade');
         });
     }
 
