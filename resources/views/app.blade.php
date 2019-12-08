@@ -17,12 +17,11 @@
         {{-- Stylesheets --}}
         <link rel="stylesheet" href="{{ mix('css/app.css') }}">
         <link rel="stylesheet" href="{{ mix('css/mobile-app.css') }}">
-
     </head>
     <body>
 
         <nav>
-            <a id="link-to-all" onclick="listProjects('all')" class="yunhaseo-logo">
+            <a id="link-to-all" onclick="listProjects('list', ''); pushToHistory('all')" class="yunhaseo-logo">
                 <img class="logo" src="../images/logo-color.svg" alt="Yunha's logo">
             </a>
             <br>
@@ -35,18 +34,18 @@
             <br>
             <br>
             @foreach($categories as $cat)
-                <p class="link" id="link-to-{{ $cat->name }}" onclick="listProjects('{{ $cat->name }}')">{{ $cat->name }}</p>
+                <p class="link" id="link-to-{{ $cat->name }}" onclick="listProjects('{{ $cat->name }}'); pushToHistory('list', '{{ $cat->name }}')">{{ $cat->name }}</p>
             @endforeach
             <br>
 
 {{--            foreach year... list project--}}
             @foreach($project_years as $year)
-                <p class="link" id="link-to-cat-{{ $year }}" onclick="listProjects('{{ $year }}')">{{ $year }}</p>
+                <p class="link" id="link-to-cat-{{ $year }}" onclick="listProjects('{{ $year }}'); pushToHistory('list', '{{ $year }}')">{{ $year }}</p>
 
                 @foreach($projects as $project)
                     @if($project->year == $year)
 {{--                        <a href="{{ route('projects.show', $project) }}">{{ $project->name }}</a>--}}
-                        <p class="link" id="link-to-{{ $project->id }}" onclick="getProject({{ $project->id }})">{{ $project->name }}</p>
+                        <p class="link" id="link-to-{{ $project->id }}" onclick="getProject({{ $project->id }}); pushToHistory('get', '{{ $project->id }}')">{{ $project->name }}</p>
                     @endif
                 @endforeach
 

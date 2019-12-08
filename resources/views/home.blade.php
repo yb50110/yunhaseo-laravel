@@ -35,6 +35,7 @@
         function updateActiveLink(id) {
             // fixing nav links
             $('nav').children().removeClass('active');
+            $('nav .link').removeClass('active');
             $('#link-to-' + id).addClass('active');
         }
 
@@ -88,7 +89,6 @@
                 dataType: 'json',
                 data: 'id=' + id,
                 success: function(data) {
-                    console.log(data);
                     $('.content-home').css({
                         'background-color': data.backgroundColor,
                         'color': data.textColor
@@ -117,6 +117,10 @@
                     console.log('error: ' + data);
                 }
             });
+        }
+
+        function pushToHistory(type, id) {
+            history.pushState(type + '[' + id + ']', null, type + '-' + id);
         }
     </script>
 @append

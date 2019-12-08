@@ -44,9 +44,9 @@
 <div class="row">
   <div class="col-md-12 text-center">
     <div class="error_number m-t-80">
-      <small>ERROR</small><br>
-      {{ $error_number }}
-      <hr>
+{{--      <small>ERROR</small><br>--}}
+{{--      {{ $error_number }}--}}
+{{--      <hr>--}}
     </div>
     <div class="error_title">
       @yield('title')

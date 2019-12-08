@@ -12,8 +12,8 @@ const mix = require('laravel-mix');
  */
 
 mix
-    .copy('resources/images', 'public/images')
-    .copy('storage/app/public/uploads', 'public/uploads')
+    // .copy('resources/images', 'public/images')
+    // .copy('storage/app/public/uploads', 'public/uploads')
 
     .js('resources/js/app.js', 'public/js')
     .js('resources/js/scripts.js', 'public/js')

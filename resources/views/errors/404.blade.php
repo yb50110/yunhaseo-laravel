@@ -5,12 +5,16 @@
 @endphp
 
 @section('title')
-  Page not found.
+{{--  Page not found.--}}
 @endsection
 
 @section('description')
-  @php
-    $default_error_message = "Please <a href='javascript:history.back()''>go back</a> or return to <a href='".url('')."'>our homepage</a>.";
-  @endphp
-  {!! isset($exception)? ($exception->getMessage()?$exception->getMessage():$default_error_message): $default_error_message !!}
+{{--  @php--}}
+{{--    $default_error_message = "Please <a href='javascript:history.back()''>go back</a> or return to <a href='".url('')."'>our homepage</a>.";--}}
+{{--  @endphp--}}
+{{--  {!! isset($exception)? ($exception->getMessage()?$exception->getMessage():$default_error_message): $default_error_message !!}--}}
+
+  <script>
+      window.location.replace('/');
+  </script>
 @endsection
