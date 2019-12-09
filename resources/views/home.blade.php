@@ -120,7 +120,11 @@
         }
 
         function pushToHistory(type, id) {
-            history.pushState(type + '[' + id + ']', null, type + '-' + id);
+            if (id === '') {
+                history.pushState('list[all]', null, 'all');
+            } else {
+                history.pushState(type + '[' + id + ']', null, type + '-' + id);
+            }
         }
     </script>
 @append

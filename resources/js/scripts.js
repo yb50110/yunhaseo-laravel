@@ -25,7 +25,7 @@ window.addEventListener("popstate", function(e) {
 
     if (e.state == null) {
         type = 'list';
-        id = '';
+        id = 'all';
     } else {
         var re = '^(\\w+)\\[(.+)]$';
         var match = e.state.match(re);

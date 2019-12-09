@@ -21,7 +21,7 @@
     <body>
 
         <nav>
-            <a id="link-to-all" onclick="listProjects('list', ''); pushToHistory('all')" class="yunhaseo-logo">
+            <a id="link-to-all" onclick="listProjects('all'); pushToHistory('list', '')" class="yunhaseo-logo">
                 <img class="logo" src="../images/logo-color.svg" alt="Yunha's logo">
             </a>
             <br>
