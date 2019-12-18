@@ -25,26 +25,25 @@
                 <img class="logo" src="../images/logo-color.svg" alt="Yunha's logo">
             </a>
             <br>
-            <p>yunha seo</p>
-            <p>yunha.tonik.seo@gmail.com</p>
+            <br>
+            <p class="bold">yunha seo</p>
+            <p class="bold">yunha.tonik.seo@gmail.com</p>
             <br>
             <a class="link" href="https://www.linkedin.com/in/yunha-seo/" target="_blank">linkedin</a>
             <a class="link" href="https://github.com/yb50110" target="_blank">github</a>
             <br>
             <br>
-            <br>
-            @foreach($categories as $cat)
-                <p class="link" id="link-to-{{ $cat->name }}" onclick="listProjects('{{ $cat->name }}'); pushToHistory('list', '{{ $cat->name }}')">{{ $cat->name }}</p>
-            @endforeach
-            <br>
+{{--            @foreach($categories as $cat)--}}
+{{--                <p class="link" id="link-to-{{ $cat->name }}" onclick="listProjects('{{ $cat->name }}'); pushToHistory('list', '{{ $cat->name }}')">{{ $cat->name }}</p>--}}
+{{--            @endforeach--}}
+{{--            <br>--}}
 
 {{--            foreach year... list project--}}
             @foreach($project_years as $year)
-                <p class="link" id="link-to-cat-{{ $year }}" onclick="listProjects('{{ $year }}'); pushToHistory('list', '{{ $year }}')">{{ $year }}</p>
+                <p class="link bold" id="link-to-cat-{{ $year }}" onclick="listProjects('{{ $year }}'); pushToHistory('list', '{{ $year }}')">{{ $year }}</p>
 
                 @foreach($projects as $project)
                     @if($project->year == $year)
-{{--                        <a href="{{ route('projects.show', $project) }}">{{ $project->name }}</a>--}}
                         <p class="link" id="link-to-{{ $project->id }}" onclick="getProject({{ $project->id }}); pushToHistory('get', '{{ $project->id }}')">{{ $project->name }}</p>
                     @endif
                 @endforeach

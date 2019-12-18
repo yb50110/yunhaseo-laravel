@@ -13,12 +13,17 @@ nav {
     text-transform: lowercase;
       margin: 0 !important;
       border-bottom: none;
-      line-height: 1.2em;
+      line-height: 1.4em;
       display: block;
       color: #000000;
       padding: 0;
 
+      &.bold {
+          font-weight: $bold;
+      }
+
     &.link {
+
       &:hover {
         font-style: italic;
         cursor: pointer;

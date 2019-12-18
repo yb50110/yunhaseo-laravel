@@ -1,73 +1,79 @@
 .content-home {
-  padding: 35px 50px;
-  margin-left: 300px;
+    padding: 35px 50px;
+    margin-left: 300px;
 
-  p {
-    max-width: 600px;
+    p {
+        max-width: 600px;
 
-    img {
-      max-width: calc(100vw - 300px - 100px);
-      height: auto !important;
-    }
-  }
-
-  .project-list {
-    column-count: 3;
-    column-gap: 15px;
-
-    @media screen and (max-width: $tablet) {
-      column-count: 2;
-    }
-    @media screen and (max-width: $phone) {
-      column-count: 1;
+        img {
+            max-width: calc(100vw - 300px - 100px);
+            height: auto !important;
+        }
     }
 
-    .project-thumbnail {
-      display: inline-block;
-      padding: 0 0 10px 0;
-      position: relative;
-      margin: 0 0 1em;
+    .project-list {
+        column-count: 3;
+        column-gap: 40px;
 
-      img {
-        width: 100%;
-      }
+        @media screen and (max-width: $tablet) {
+            column-count: 2;
+        }
+        @media screen and (max-width: $phone) {
+            column-count: 1;
+        }
 
-      p {
-        text-transform: lowercase;
-        position: absolute;
+        .project-thumbnail {
+            display: inline-block;
+            padding: 0 0 10px 0;
+            position: relative;
+            margin: 0 0 30px 0;
+
+            img {
+                width: 100%;
+            }
+
+            p {
+                text-transform: lowercase;
+                margin: 5px 0 0 0;
+                position: absolute;
+            }
+
+            &:hover {
+                cursor: pointer;
+
+                p {
+                    color: $red;
+                }
+            }
+        }
+    }
+
+    .project {
         display: none;
-      }
 
-      &:hover {
-        cursor: pointer;
-        p { display: block; }
-      }
-    }
-  }
+        .project-name {
+            margin-bottom: 20px;
+            font-weight: $bold;
+        }
 
-  .project {
-    display: none;
+        .project-description {
+            margin: 20px 0 50px 0;
 
-    .project-name {
-      margin-bottom: 20px;
-    }
-    .project-description {
-      margin: 20px 0 50px 0;
+            em {
+                font-style: italic;
+            }
 
-      em {
-        font-style: italic;
-      }
-      img {
-        margin: 20px 0;
-      }
+            img {
+                margin: 20px 0;
+            }
+        }
+
     }
 
-  }
-
-  h1 {
-    margin-top: 40px;
-    margin-bottom: 30px;
-    font-weight: 700;
-    font-size: 5em;
-  }
+    h1 {
+        margin-top: 40px;
+        margin-bottom: 30px;
+        font-weight: 700;
+        font-size: 5em;
+    }
 }

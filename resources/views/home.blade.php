@@ -12,8 +12,8 @@
                                  {{ $cat->name }}
                             @endforeach
                         ">
-                    <img src="../{{ $project->image }}" onclick="getProject({{ $project->id }}, pushToHistory('get', '{{ $project->id }}')">
-                    <p>{{ $project->name }}</p>
+                    <img src="../{{ $project->image }}" onclick="getProject({{ $project->id }}); pushToHistory('get', '{{ $project->id }}')">
+                    <p onclick="getProject({{ $project->id }}); pushToHistory('get', '{{ $project->id }}')">{{ $project->name }}</p>
                 </div>
             @endforeach
         </div>
@@ -51,7 +51,7 @@
             updateActiveLink(cat);
 
             // reset project list
-            $('.project-list').show();
+            $('.project-list').fadeIn();
             $('.content-home').css({
                 'background-color': '#ffffff',
                 'color': '#000000'
@@ -79,8 +79,7 @@
         {
             // hiding project-list
             $('.project-list').hide();
-            $('.project').show();
-
+            $('.project').fadeOut();
             updateActiveLink(id);
 
             $.ajax({
@@ -112,6 +111,9 @@
                     } else {
                         $('.project-client').html('');
                     }
+
+                    // show project page after loading is done
+                    $('.project').fadeIn();
                 },
                 error: function(data) {
                     console.log('error: ' + data);

@@ -3,8 +3,11 @@
 $body-bg: #ffffff;
 
 // Typography
-$font-family-sans-serif: sans-serif;
-$font-family-korean: "Nanum Gothic", sans-serif;
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,400i,600,600i&display=swap');
+$font-family-sans-serif: 'IBM Plex Mono', monospace;
+
+$bold: 600;
+$regular: 400;
 
 // Colors
 $red: #c51f30;
