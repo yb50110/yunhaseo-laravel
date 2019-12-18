@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e1771dbb-e9f7-4df0-92b3-f055fb632b14" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/scripts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/_base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/component/_nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/component/_nav.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -232,7 +228,8 @@
       <workItem from="1575771666892" duration="1071000" />
       <workItem from="1575839121673" duration="7765000" />
       <workItem from="1575914437657" duration="29000" />
-      <workItem from="1575920814531" duration="1338000" />
+      <workItem from="1575920814531" duration="1580000" />
+      <workItem from="1576699465605" duration="252000" />
     </task>
     <task id="LOCAL-00001" summary="testing push">
       <created>1546842759856</created>
@@ -283,7 +280,14 @@
       <option name="project" value="LOCAL" />
       <updated>1559703990335</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="some js and front-end adjustments">
+      <created>1575922316568</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1575922316568</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,6 +315,7 @@
     <MESSAGE value="finished up responsive css" />
     <MESSAGE value="new website!" />
     <MESSAGE value="showing and listing projects + logic changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="showing and listing projects + logic changes" />
+    <MESSAGE value="some js and front-end adjustments" />
+    <option name="LAST_COMMIT_MESSAGE" value="some js and front-end adjustments" />
   </component>
 </project>

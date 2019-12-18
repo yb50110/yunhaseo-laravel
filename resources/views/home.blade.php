@@ -12,7 +12,7 @@
                                  {{ $cat->name }}
                             @endforeach
                         ">
-                    <img src="../{{ $project->image }}" onclick="getProject({{ $project->id }})">
+                    <img src="../{{ $project->image }}" onclick="getProject({{ $project->id }}, pushToHistory('get', '{{ $project->id }}')">
                     <p>{{ $project->name }}</p>
                 </div>
             @endforeach
