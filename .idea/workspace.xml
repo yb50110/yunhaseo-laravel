@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e1771dbb-e9f7-4df0-92b3-f055fb632b14" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/component/_nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/component/_nav.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/sass/page/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/page/_home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -235,7 +231,12 @@
       <workItem from="1575914437657" duration="29000" />
       <workItem from="1575920814531" duration="1580000" />
       <workItem from="1576699465605" duration="1252000" />
-      <workItem from="1576704571348" duration="2445000" />
+      <workItem from="1576704571348" duration="2646000" />
+      <workItem from="1576710736683" duration="1197000" />
+      <workItem from="1576774924332" duration="395000" />
+      <workItem from="1576792496458" duration="187000" />
+      <workItem from="1576795921809" duration="297000" />
+      <workItem from="1576816972111" duration="497000" />
     </task>
     <task id="LOCAL-00001" summary="testing push">
       <created>1546842759856</created>
@@ -293,7 +294,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575922316568</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="some js bug fix and css adjustments from feedback">
+      <created>1576707841562</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1576707841562</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,6 +330,7 @@
     <MESSAGE value="new website!" />
     <MESSAGE value="showing and listing projects + logic changes" />
     <MESSAGE value="some js and front-end adjustments" />
-    <option name="LAST_COMMIT_MESSAGE" value="some js and front-end adjustments" />
+    <MESSAGE value="some js bug fix and css adjustments from feedback" />
+    <option name="LAST_COMMIT_MESSAGE" value="some js bug fix and css adjustments from feedback" />
   </component>
 </project>

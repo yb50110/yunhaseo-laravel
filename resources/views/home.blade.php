@@ -78,7 +78,7 @@
         function getProject(id)
         {
             // hiding project-list
-            $('.project-list').hide();
+            $('.project-list').fadeOut();
             $('.project').fadeOut();
             updateActiveLink(id);
 
