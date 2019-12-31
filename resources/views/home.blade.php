@@ -39,6 +39,13 @@
             $('#link-to-' + id).addClass('active');
         }
 
+        function closeMenu() {
+            if ($(window).innerWidth() <  768) {
+                $('nav').css('left', '-300px');
+                $('.mobile-menu-background').fadeOut();
+            }
+        }
+
         /**
          * lists projects in selected cat
          * cat can be category or year
@@ -46,6 +53,7 @@
          */
         function listProjects(cat)
         {
+            closeMenu();
             $('.project').hide();
 
             updateActiveLink(cat);
@@ -77,6 +85,8 @@
 
         function getProject(id)
         {
+            closeMenu();
+
             // hiding project-list
             $('.project-list').fadeOut();
             $('.project').fadeOut();

@@ -3,10 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="e1771dbb-e9f7-4df0-92b3-f055fb632b14" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/yunhaseo-laravel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/yunhaseo-laravel.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/component/_nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/component/_nav.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/mobile-app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/mobile-app.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/sass/page/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/page/_home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -159,7 +165,13 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="giti&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/.gitignore&#10;web&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/routes/web.php&#10;config/base&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/config/backpack/base.php&#10;.env&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/.env&#10;auth/register&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/vendor/backpack/base/src/resources/views/auth/register.blade.php&#10;login&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/public/vendor/adminlte/pages/examples/login.html&#10;htac&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/public/.htaccess&#10;mix&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/webpack.mix.js&#10;appservice&#9;null&#9;null&#10;home&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/sass/page/_home.scss&#10;proj&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/sass/page/_projects.scss&#10;bas&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/sass/_base.scss&#10;webpack&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/webpack.mix.js&#10;varia&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/sass/_variables.scss&#10;base&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/sass/_base.scss&#10;script&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/js/scripts.js&#10;projectcon&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/app/Http/Controllers/ProjectController.php&#10;scripts.js&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/js/scripts.js&#10;mixi&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/sass/_mixins.scss&#10;project.&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/views/projects.blade.php&#10;variable.s&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/sass/_variables.scss&#10;base.sc&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/sass/_base.scss&#10;projectcru&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/app/Http/Controllers/Admin/ProjectCrudController.php&#10;_mixin&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/sass/_mixins.scss&#10;project&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/sass/page/_projects.scss&#10;show&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/views/projects-show.blade.php&#10;81d4&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/public/storage/public/uploads/projects/81d341016718400b653bfec455ea857d.jpg&#10;projec&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/views/projects.blade.php&#10;custom&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/routes/backpack/custom.php&#10;admincontroller&#9;null&#9;null&#10;base.php&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/config/backpack/base.php&#10;vendor/backpack/base/&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/views/vendor/backpack/base&#10;crudcont&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/vendor/backpack/crud/src/app/Http/Controllers/CrudController.php&#10;proje&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/app/Http/Controllers/ProjectController.php&#10;select2&#9;null&#9;null&#10;projectcr&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/app/Http/Controllers/Admin/ProjectCrudController.php&#10;pro&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/app/Http/Controllers/ProjectController.php&#10;controller&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/app/Http/Controllers/Admin/CategoryCrudController.php&#10;git&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/.gitignore&#10;uploads/projec&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/storage/app/public/uploads/projects&#10;projectcont&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/app/Http/Controllers/ProjectController.php&#10;foo&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/sass/component/_footer.scss&#10;nav&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/sass/component/_nav.scss&#10;ba&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/resources/sass/_base.scss&#10;we&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/routes/web.php&#10;web.&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/routes/web.php&#10;edit.blade&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/vendor/backpack/crud/src/resources/views/fields/ckeditor.blade.php&#10;uploads/p&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/storage/app/public/uploads/projects&#10;filesystem.php&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/config/filesystems.php&#10;create.blade&#9;FILE&#9;file:///Users/yunhaseo/Sites/yunhaseo-laravel/vendor/backpack/crud/src/resources/views/create.blade.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -170,12 +182,6 @@
     <property name="nodejs_package_manager_path" value="yarn" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/resources/views/vendor/backpack/crud/fields" />
-      <recent name="$PROJECT_DIR$/resources/sass/page" />
-      <recent name="$PROJECT_DIR$/resources/sass/component" />
-      <recent name="$PROJECT_DIR$/app/Models" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/resources/js" />
@@ -183,16 +189,22 @@
       <recent name="$PROJECT_DIR$/resources/images" />
       <recent name="$PROJECT_DIR$/public" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/vendor/backpack/crud/fields" />
+      <recent name="$PROJECT_DIR$/resources/sass/page" />
+      <recent name="$PROJECT_DIR$/resources/sass/component" />
+      <recent name="$PROJECT_DIR$/app/Models" />
+    </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="ServiceViewManager">
+    <option name="viewStates">
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
       </list>
     </option>
   </component>
@@ -237,6 +249,7 @@
       <workItem from="1576792496458" duration="187000" />
       <workItem from="1576795921809" duration="297000" />
       <workItem from="1576816972111" duration="497000" />
+      <workItem from="1577728776884" duration="8018000" />
     </task>
     <task id="LOCAL-00001" summary="testing push">
       <created>1546842759856</created>
@@ -332,5 +345,15 @@
     <MESSAGE value="some js and front-end adjustments" />
     <MESSAGE value="some js bug fix and css adjustments from feedback" />
     <option name="LAST_COMMIT_MESSAGE" value="some js bug fix and css adjustments from feedback" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="100" y="100" width="1480" height="850" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1577749808983">
+      <screen x="0" y="0" width="1680" height="1025" />
+    </state>
+    <state x="100" y="100" width="1480" height="850" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1680.1025/-111.-1058.1920.1058@0.0.1680.1025" timestamp="1577749808983" />
+    <state x="519" y="356" key="com.intellij.ide.util.TipDialog" timestamp="1577728778347">
+      <screen x="0" y="22" width="1680" height="1003" />
+    </state>
+    <state x="519" y="356" key="com.intellij.ide.util.TipDialog/0.22.1680.1003@0.22.1680.1003" timestamp="1577728778347" />
   </component>
 </project>

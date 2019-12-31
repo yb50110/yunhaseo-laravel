@@ -20,7 +20,11 @@
     </head>
     <body>
 
+        <div class="mobile-menu-button--open">--- menu ---</div>
+        <div class="mobile-menu-background"></div>
+
         <nav>
+            <div class="mobile-menu-button--close">--- close ---</div>
             <a id="link-to-all" onclick="listProjects('all'); pushToHistory('list', '')" class="yunhaseo-logo">
                 <img class="logo" src="../images/logo-color.svg" alt="Yunha's logo">
             </a>
@@ -32,11 +36,12 @@
             <a class="link" href="https://www.linkedin.com/in/yunha-seo/" target="_blank">linkedin</a>
             <a class="link" href="https://github.com/yb50110" target="_blank">github</a>
             <br>
+            <p>-----</p>
             <br>
-{{--            @foreach($categories as $cat)--}}
-{{--                <p class="link" id="link-to-{{ $cat->name }}" onclick="listProjects('{{ $cat->name }}'); pushToHistory('list', '{{ $cat->name }}')">{{ $cat->name }}</p>--}}
-{{--            @endforeach--}}
-{{--            <br>--}}
+            @foreach($categories as $cat)
+                <p class="link" id="link-to-{{ $cat->name }}" onclick="listProjects('{{ $cat->name }}'); pushToHistory('list', '{{ $cat->name }}')">{{ $cat->name }}</p>
+            @endforeach
+            <br>
 
 {{--            foreach year... list project--}}
             @foreach($project_years as $year)
