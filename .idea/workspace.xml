@@ -3,15 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="e1771dbb-e9f7-4df0-92b3-f055fb632b14" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/yunhaseo-laravel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/yunhaseo-laravel.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/images/logo-bw.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/images/logo-color.svg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/images/logo-color.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/images/me_buro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/images/me_buro1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/images/yunha-logo.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/sass/component/_nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/component/_nav.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/sass/mobile-app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/mobile-app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/page/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/page/_home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -249,7 +247,8 @@
       <workItem from="1576792496458" duration="187000" />
       <workItem from="1576795921809" duration="297000" />
       <workItem from="1576816972111" duration="497000" />
-      <workItem from="1577728776884" duration="8018000" />
+      <workItem from="1577728776884" duration="8189000" />
+      <workItem from="1577752283691" duration="726000" />
     </task>
     <task id="LOCAL-00001" summary="testing push">
       <created>1546842759856</created>
@@ -314,7 +313,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576707841562</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="work on minor adjustments and improvements">
+      <created>1577750554603</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1577750554603</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -344,16 +350,26 @@
     <MESSAGE value="showing and listing projects + logic changes" />
     <MESSAGE value="some js and front-end adjustments" />
     <MESSAGE value="some js bug fix and css adjustments from feedback" />
-    <option name="LAST_COMMIT_MESSAGE" value="some js bug fix and css adjustments from feedback" />
+    <MESSAGE value="work on minor adjustments and improvements" />
+    <option name="LAST_COMMIT_MESSAGE" value="work on minor adjustments and improvements" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="434" y="127" key="CommitChangelistDialog2" timestamp="1577750553282">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="434" y="127" key="CommitChangelistDialog2/0.0.1680.1050/-111.-1080.1920.1080@0.0.1680.1050" timestamp="1577750553282" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1577750557916">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050/-111.-1080.1920.1080@0.0.1680.1050" timestamp="1577750557916" />
     <state x="100" y="100" width="1480" height="850" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1577749808983">
       <screen x="0" y="0" width="1680" height="1025" />
     </state>
     <state x="100" y="100" width="1480" height="850" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1680.1025/-111.-1058.1920.1058@0.0.1680.1025" timestamp="1577749808983" />
-    <state x="519" y="356" key="com.intellij.ide.util.TipDialog" timestamp="1577728778347">
+    <state x="519" y="356" key="com.intellij.ide.util.TipDialog" timestamp="1577752557554">
       <screen x="0" y="22" width="1680" height="1003" />
     </state>
+    <state x="519" y="356" key="com.intellij.ide.util.TipDialog/0.22.1680.1003/-111.-1058.1920.1058@0.22.1680.1003" timestamp="1577752557554" />
     <state x="519" y="356" key="com.intellij.ide.util.TipDialog/0.22.1680.1003@0.22.1680.1003" timestamp="1577728778347" />
   </component>
 </project>
