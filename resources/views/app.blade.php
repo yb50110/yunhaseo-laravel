@@ -20,21 +20,21 @@
     </head>
     <body>
 
-        <div class="mobile-menu-button--open">--- menu ---</div>
+        <div class="mobile-menu-button--open">--- Menu ---</div>
         <div class="mobile-menu-background"></div>
 
         <nav>
-            <div class="mobile-menu-button--close">--- close ---</div>
+            <div class="mobile-menu-button--close">--- Close ---</div>
             <a id="link-to-all" onclick="listProjects('all'); pushToHistory('list', '')" class="yunhaseo-logo">
                 <img class="logo" src="../images/logo-color.svg" alt="Yunha's logo">
             </a>
             <br>
             <br>
-            <p class="bold">yunha seo</p>
+            <p>--- WEBSITE UNDER CONSTRUCTION ---</p>
+            <p class="bold">Yunha Seo</p>
             <p class="bold">yunha.tonik.seo@gmail.com</p>
-            <br>
-            <a class="link" href="https://www.linkedin.com/in/yunha-seo/" target="_blank">linkedin</a>
-            <a class="link" href="https://github.com/yb50110" target="_blank">github</a>
+            <a class="link" href="https://www.linkedin.com/in/yunha-seo/" target="_blank">Linkedin</a>
+{{--            <a class="link" href="https://github.com/yb50110" target="_blank">Github</a>--}}
             <br>
             <p>-----</p>
             <br>

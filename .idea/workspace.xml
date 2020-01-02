@@ -3,13 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="e1771dbb-e9f7-4df0-92b3-f055fb632b14" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/images/logo-bw.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/images/logo-color.svg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/images/logo-color.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/images/me_buro.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/images/me_buro1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/images/yunha-logo.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/sass/component/_nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/component/_nav.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/mobile-app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/mobile-app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/page/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/page/_home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -248,7 +246,8 @@
       <workItem from="1576795921809" duration="297000" />
       <workItem from="1576816972111" duration="497000" />
       <workItem from="1577728776884" duration="8189000" />
-      <workItem from="1577752283691" duration="726000" />
+      <workItem from="1577752283691" duration="875000" />
+      <workItem from="1577986311772" duration="4007000" />
     </task>
     <task id="LOCAL-00001" summary="testing push">
       <created>1546842759856</created>
@@ -320,7 +319,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577750554603</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="minor adjustments with new logo">
+      <created>1577753364900</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1577753364900</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -351,25 +357,44 @@
     <MESSAGE value="some js and front-end adjustments" />
     <MESSAGE value="some js bug fix and css adjustments from feedback" />
     <MESSAGE value="work on minor adjustments and improvements" />
-    <option name="LAST_COMMIT_MESSAGE" value="work on minor adjustments and improvements" />
+    <MESSAGE value="minor adjustments with new logo" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor adjustments with new logo" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="434" y="127" key="CommitChangelistDialog2" timestamp="1577750553282">
+    <state x="578" y="287" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1577988995200">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="434" y="127" key="CommitChangelistDialog2/0.0.1680.1050/-111.-1080.1920.1080@0.0.1680.1050" timestamp="1577750553282" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1577750557916">
+    <state x="578" y="287" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1680.1050/-111.-1080.1920.1080@0.0.1680.1050" timestamp="1577988995200" />
+    <state x="434" y="127" key="CommitChangelistDialog2" timestamp="1577753364258">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050/-111.-1080.1920.1080@0.0.1680.1050" timestamp="1577750557916" />
+    <state x="434" y="127" key="CommitChangelistDialog2/0.0.1680.1050/-111.-1080.1920.1080@0.0.1680.1050" timestamp="1577753364258" />
+    <state x="664" y="243" key="RollbackChangesDialog" timestamp="1577990145795">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="664" y="243" key="RollbackChangesDialog/0.0.1680.1050/-111.-1080.1920.1080@0.0.1680.1050" timestamp="1577990145795" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1577753367465">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050/-111.-1080.1920.1080@0.0.1680.1050" timestamp="1577753367465" />
     <state x="100" y="100" width="1480" height="850" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1577749808983">
       <screen x="0" y="0" width="1680" height="1025" />
     </state>
     <state x="100" y="100" width="1480" height="850" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1680.1025/-111.-1058.1920.1058@0.0.1680.1025" timestamp="1577749808983" />
-    <state x="519" y="356" key="com.intellij.ide.util.TipDialog" timestamp="1577752557554">
+    <state x="519" y="356" key="com.intellij.ide.util.TipDialog" timestamp="1577986515997">
       <screen x="0" y="22" width="1680" height="1003" />
     </state>
     <state x="519" y="356" key="com.intellij.ide.util.TipDialog/0.22.1680.1003/-111.-1058.1920.1058@0.22.1680.1003" timestamp="1577752557554" />
-    <state x="519" y="356" key="com.intellij.ide.util.TipDialog/0.22.1680.1003@0.22.1680.1003" timestamp="1577728778347" />
+    <state x="519" y="356" key="com.intellij.ide.util.TipDialog/0.22.1680.1003@0.22.1680.1003" timestamp="1577986515997" />
+    <state x="506" y="144" width="667" height="764" key="find.popup" timestamp="1577986532590">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="506" y="144" width="667" height="764" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1577986532590" />
+    <state x="506" y="160" width="667" height="729" key="find.popup/0.22.1680.1003@0.22.1680.1003" timestamp="1577986507726" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1577990329438">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050/-111.-1080.1920.1080@0.0.1680.1050" timestamp="1577990329438" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1577986496720" />
   </component>
 </project>

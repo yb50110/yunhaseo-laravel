@@ -32,6 +32,29 @@
 
 @section('scripts')
     <script>
+        $(document).ready(function () {
+            const path = window.location.pathname;
+
+            if (path !== '/') {
+                if (path.includes('get')) {
+                    const re = /get-(\d+)$/gm;
+                    const match = re.exec(path);
+                    getProject(parseInt(match[1]));
+
+                } else if (path.includes('list')) {
+                    const re = /list-(\w+)$/gm;
+                    const match = re.exec(path);
+                    listProjects(match[1]);
+
+                } else if (path.includes('all')) {
+                    listProjects('all');
+                }
+                // content-home is fadeIn within the respective show functions
+            } else {
+                $('.content-home').fadeIn();
+            }
+        });
+
         function updateActiveLink(id) {
             // fixing nav links
             $('nav').children().removeClass('active');
@@ -55,15 +78,13 @@
         {
             closeMenu();
             $('.project').hide();
+            $('.project-list').hide();
 
             updateActiveLink(cat);
 
             // reset project list
+            $('.content-home').show();
             $('.project-list').fadeIn();
-            $('.content-home').css({
-                'background-color': '#ffffff',
-                'color': '#000000'
-            });
 
             // show only those with cat
             const all_projects = $('.project-thumbnail');
@@ -88,8 +109,8 @@
             closeMenu();
 
             // hiding project-list
-            $('.project-list').fadeOut();
-            $('.project').fadeOut();
+            $('.project-list').hide();
+            $('.project').hide();
             updateActiveLink(id);
 
             $.ajax({
@@ -98,10 +119,6 @@
                 dataType: 'json',
                 data: 'id=' + id,
                 success: function(data) {
-                    $('.content-home').css({
-                        'background-color': data.backgroundColor,
-                        'color': data.textColor
-                    });
                     $('.project-name').html(data.name);
                     $('.project-year').html(data.year);
                     $('.project-description').html(data.description);
@@ -123,6 +140,7 @@
                     }
 
                     // show project page after loading is done
+                    $('.content-home').show();
                     $('.project').fadeIn();
                 },
                 error: function(data) {

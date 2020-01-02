@@ -1,6 +1,7 @@
 .content-home {
     padding: 35px 40px;
     margin-left: 300px;
+    display: none;
 
     p {
         max-width: 600px;
@@ -32,7 +33,7 @@
             }
 
             p {
-                text-transform: lowercase;
+                //text-transform: lowercase;
                 margin: 5px 0 0 0;
             }
 
