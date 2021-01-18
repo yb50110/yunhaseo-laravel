@@ -30,10 +30,11 @@
             </a>
             <br>
             <br>
-            <p>--- WEBSITE UNDER CONSTRUCTION ---</p>
+            <!-- <p>--- WEBSITE UNDER CONSTRUCTION ---</p> -->
             <p class="bold">Yunha Seo</p>
             <p class="bold">yunha.tonik.seo@gmail.com</p>
             <a class="link" href="https://www.linkedin.com/in/yunha-seo/" target="_blank">Linkedin</a>
+            <a class="link" href="https://www.instagram.com/lostcrayons/" target="_blank">Instagram</a>
 {{--            <a class="link" href="https://github.com/yb50110" target="_blank">Github</a>--}}
             <br>
             <p>-----</p>

@@ -5,7 +5,7 @@ nav {
     min-height: 100vh;
     position: fixed;
     padding: 35px;
-    width: 300px;
+    width: 230px;
     z-index: 1;
     bottom: 0;
     left: 0;
@@ -13,9 +13,10 @@ nav {
 
     p, a {
         //text-transform: lowercase;
-        margin: 0 !important;
+        margin: 2px 0 !important;
         border-bottom: none;
         line-height: 1.4em;
+        font-size: 0.8em;
         display: block;
         color: #000000;
         padding: 0;

@@ -5,6 +5,7 @@
 
     p {
         max-width: 600px;
+        margin: 15px 0;
 
         img {
             max-width: calc(100vw - 300px - 100px);
@@ -27,6 +28,7 @@
             display: inline-block;
             position: relative;
             margin: 0 0 15px 0;
+            width: 100%;
 
             img {
                 width: 100%;
@@ -49,6 +51,7 @@
 
     .project {
         display: none;
+        line-height: 1.5em;
 
         .project-name {
             margin-bottom: 20px;

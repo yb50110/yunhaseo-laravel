@@ -1,0 +1,181 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css?family=Nanum+Gothic:800");
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,400i,600,600i&display=swap");
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none; }
+
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+html, body {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.9em; }
+
+body {
+  position: relative; }
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+a {
+  text-decoration: none;
+  color: #c51f30; }
+  a:hover {
+    text-decoration: none;
+    font-style: italic;
+    color: inherit; }
+
+#tinymce-description_ifr {
+  height: 800px !important; }
+
+.content-home {
+  padding: 35px 40px;
+  margin-left: 300px;
+  display: none; }
+  .content-home p {
+    max-width: 600px;
+    margin: 15px 0; }
+    .content-home p img {
+      max-width: calc(100vw - 300px - 100px);
+      height: auto !important; }
+  .content-home .project-list {
+    column-count: 3;
+    column-gap: 40px; }
+    @media screen and (max-width: 1024px) {
+      .content-home .project-list {
+        column-count: 2; } }
+    @media screen and (max-width: 768px) {
+      .content-home .project-list {
+        column-count: 1; } }
+    .content-home .project-list .project-thumbnail {
+      display: inline-block;
+      position: relative;
+      margin: 0 0 15px 0;
+      width: 100%; }
+      .content-home .project-list .project-thumbnail img {
+        width: 100%; }
+      .content-home .project-list .project-thumbnail p {
+        margin: 5px 0 0 0; }
+      .content-home .project-list .project-thumbnail:hover {
+        cursor: pointer; }
+        .content-home .project-list .project-thumbnail:hover p {
+          color: #c51f30; }
+  .content-home .project {
+    display: none;
+    line-height: 1.5em; }
+    .content-home .project .project-name {
+      margin-bottom: 20px;
+      font-weight: 600; }
+    .content-home .project .project-description {
+      margin: 20px 0 50px 0; }
+      .content-home .project .project-description em {
+        font-style: italic; }
+      .content-home .project .project-description img {
+        margin: 20px 0; }
+      .content-home .project .project-description > div {
+        background: black;
+        margin: 20px 0;
+        padding: 30px;
+        height: 50vh; }
+        .content-home .project .project-description > div iframe, .content-home .project .project-description > div object, .content-home .project .project-description > div embed {
+          height: 100%;
+          width: 100%; }
+  .content-home h1 {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 5em; }
+
+nav {
+  transition: left 0.5s ease;
+  background: #ffffff;
+  overflow-y: scroll;
+  min-height: 100vh;
+  position: fixed;
+  padding: 35px;
+  width: 230px;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  top: 0; }
+  nav p, nav a {
+    margin: 2px 0 !important;
+    border-bottom: none;
+    line-height: 1.4em;
+    font-size: 0.8em;
+    display: block;
+    color: #000000;
+    padding: 0; }
+    nav p.bold, nav a.bold {
+      font-weight: 600; }
+    nav p.link:hover, nav a.link:hover {
+      font-style: italic;
+      cursor: pointer;
+      color: #c51f30; }
+    nav p.link.active, nav a.link.active {
+      color: #c51f30; }
+  nav .yunhaseo-logo {
+    margin-bottom: 20px;
+    cursor: pointer;
+    width: 35px; }
+
+.mobile-menu-button--open, .mobile-menu-button--close {
+  transform: rotate(90deg);
+  transform-origin: 0 0;
+  position: fixed;
+  left: 35px;
+  top: 35px; }
+  .mobile-menu-button--open:hover, .mobile-menu-button--close:hover {
+    font-style: italic;
+    cursor: pointer;
+    color: #c51f30; }
+
+.mobile-menu-button--close {
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 290px; }
+
+.mobile-menu-background {
+  background: rgba(255, 255, 255, 0.5);
+  position: fixed;
+  z-index: 1;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+  display: none; }
+
+/*# sourceMappingURL=app.css.map */
